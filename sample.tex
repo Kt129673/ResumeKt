@@ -1,0 +1,316 @@
+\documentclass[8pt,a4paper,withhyper]{altacv}
+
+\geometry{left=0.8cm,right=0.8cm,top=0.8cm,bottom=0.8cm,columnsep=0.8cm}
+
+\usepackage{paracol}
+\usepackage{enumitem}
+\setlist[itemize]{nosep,leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt,itemsep=1pt}
+
+\iftutex
+  \setmainfont{Roboto Slab}
+  \setsansfont{Lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  \usepackage[rm]{roboto}
+  \usepackage[defaultsans]{lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\fi
+
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{DarkPastelRed}{HTML}{450808}
+\definecolor{PastelRed}{HTML}{8F0D0D}
+\definecolor{GoldenEarth}{HTML}{E7D192}
+\colorlet{name}{black}
+\colorlet{tagline}{PastelRed}
+\colorlet{heading}{DarkPastelRed}
+\colorlet{headingrule}{GoldenEarth}
+\colorlet{subheading}{PastelRed}
+\colorlet{accent}{PastelRed}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+\renewcommand{\personalinfofont}{\footnotesize}
+\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\large\bfseries}
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+\renewcommand{\cvRatingMarker}{\faCircle}
+
+\begin{document}
+\name{Kiran Tilekar}
+\tagline{Senior Java Developer \textbar{} Spring Boot \& Microservices Expert \textbar{} 3.3+ Years \textbar{} Rs.156Cr+ Gov Systems}
+
+\personalinfo{%
+  \email{kirantilekar@icloud.com}
+  \phone{+91-9834882015}
+  \location{Pune, India}
+  \linkedin{kiran-tilekar-94173382}
+  \github{Kt129673}
+}
+
+\makecvheader
+
+\columnratio{0.62}
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+
+\begin{paracol}{2}
+\cvsection{\faUser\ Professional Summary}
+
+Senior Java Developer with \textbf{3.3+ years} building \textbf{mission-critical government systems} tracking \textbf{Rs.156+ Cr annually}. Expert in \textbf{Spring Boot microservices} achieving \textbf{99.9\% uptime} and \textbf{sub-200ms latency} for \textbf{50,000+ monthly transactions}. Multi-cloud experienced (\textbf{AWS, GCP, Azure}) with hands-on \textbf{CI/CD pipeline automation}. Specialized in \textbf{IoT data platforms} using industrial protocols (Modbus TCP, MQTT, OPC-UA) with \textbf{real-time analytics}. Proven track record delivering \textbf{zero-downtime deployments} and \textbf{100\% data integrity} for government financial systems.
+
+\cvsection{\faBriefcase\ Experience}
+
+\cvevent{Senior Software Developer}{AVICS}{Nov 2022 -- Present}{Pune, India}
+\begin{itemize}
+\item \textbf{Architected microservices} using Spring Boot 3.x processing \textbf{50,000+ transactions/month} with \textbf{99.9\% SLA compliance}
+\item \textbf{Engineered distributed systems} with Spring Cloud (Config, Gateway, Circuit Breaker) reducing deployment time by \textbf{40\%}
+\item \textbf{Optimized database performance} through advanced indexing, query tuning, and connection pooling -- \textbf{60\% faster queries}
+\item \textbf{Implemented enterprise security} with Spring Security, JWT/OAuth2, and RBAC protecting \textbf{Rs.500+ Cr} in transactions
+\item \textbf{Automated statutory reporting} with JasperReports engine generating \textbf{20+ government reports}, saving \textbf{30+ hrs/week}
+\item \textbf{Designed caching architecture} using Redis + Caffeine achieving \textbf{40\% reduction} in database load
+\item \textbf{Led Agile squad} of 5 engineers, conducted 100+ code reviews, and mentored \textbf{3 developers to mid-level}
+\end{itemize}
+
+\divider
+
+\cvevent{Quality Assurance Engineer}{Schneider Electric}{Feb 2018 -- Nov 2021}{Ahmednagar, India}
+\begin{itemize}
+\item \textbf{Spearheaded quality operations} for Medium Voltage systems, achieving \textbf{95\%+ first-pass yield}
+\item \textbf{Pioneered RCA framework} using 8D methodology, reducing field failures by \textbf{30\%} across product lines
+\item \textbf{Collaborated with R\&D teams} on design improvements, contributing to \textbf{3 product certifications}
+\end{itemize}
+
+\cvsection{\faProjectDiagram\ Key Projects}
+
+\cvevent{\faLandmark\ ZP Work Management \& Financial System}{}{Feb 2023 -- Present}{}
+\begin{itemize}
+\item Enterprise platform for \textbf{Maharashtra Zilla Parishads} tracking \textbf{Rs.156+ Cr annual receipts} across \textbf{15 departments}
+\item Real-time \textbf{budget tracking dashboard} with expenditure analytics (Rs.25+ Cr/year) and \textbf{utilization metrics}
+\item Processing \textbf{50,000+ transactions/month} with \textbf{99.9\% uptime}; batch reconciliation of \textbf{100,000+ records} in \textless5 min
+\item Built hierarchical approval workflows with multi-level authorization, digital signatures, and AOP-based audit logging
+\item Implemented \textbf{Prometheus + Grafana} monitoring, budget forecasting, and S3-based document management
+\item \textbf{Tech:} Spring Boot, Spring Security, Angular 14, MySQL, JasperReports, Prometheus, Grafana, AWS
+\end{itemize}
+
+\divider
+
+\cvevent{\faMoneyBill\ Government Cashbook Application}{}{2023 -- Present}{}
+\begin{itemize}
+\item Digital cashbook for government treasuries managing \textbf{Rs.100+ Cr} daily with double-entry bookkeeping
+\item Built bank integration for real-time TSA sync, cheque management, and voucher generation systems
+\item Created multi-department dashboard with real-time cash position; supports \textbf{200+ concurrent users}
+\item \textbf{Tech:} Spring Boot, Spring Security, Angular 14, MySQL, JasperReports, AWS (EC2, RDS)
+\end{itemize}
+
+\divider
+
+\cvevent{\faMicrochip\ IoT Data Harvesting Platform}{}{2024}{}
+\begin{itemize}
+\item Architected \textbf{3-tier IoT platform} ingesting \textbf{10,000+ data points/min} from \textbf{50+ industrial devices}
+\item Engineered polyglot persistence (PostgreSQL + InfluxDB) with \textbf{multi-level caching} -- \textbf{70\% fewer queries}
+\item Built real-time alerting, device health monitoring, and OPC-UA/Modbus protocol adapters with failover
+\item Implemented data retention policies reducing storage costs by \textbf{50\%}; created NSIS Windows installer
+\item \textbf{Tech:} Spring Boot 3.4, Java 17, InfluxDB, PostgreSQL, MQTT, Azure (VMs, IoT Hub)
+\end{itemize}
+
+\divider
+
+\cvevent{\faGraduationCap\ Online Examination Portal}{}{Jun 2024 -- Present}{}
+\begin{itemize}
+\item High-concurrency platform supporting \textbf{1000+ simultaneous users} with WebSocket sync and anti-cheating
+\item Built question bank (\textbf{10,000+ questions}), automated grading, proctoring, and result analytics
+\item Developed exam scheduling engine with slot allocation, bulk user import, and email credential delivery
+\item \textbf{Tech:} Spring Boot, Angular 16, MySQL, WebSocket, JWT, Redis, AWS (EC2, ElastiCache)
+\end{itemize}
+
+\divider
+
+\cvevent{\faFutbol\ Ground Booking Management System}{}{Aug 2024 -- Present}{}
+\begin{itemize}
+\item Sports booking system managing \textbf{20+ grounds}, \textbf{Rs.10+ Lakhs/month} revenue with dynamic pricing
+\item Multi-mode payments (Cash, UPI, Razorpay), membership management, and \textbf{10+ financial reports}
+\item \textbf{Tech:} Spring Boot, Angular 14, MySQL, JasperReports, Azure (App Service, SQL Database)
+\end{itemize}
+
+\divider
+
+\cvevent{\faBoxes\ ITI Inventory Management System}{}{2022 -- 2024}{}
+\begin{itemize}
+\item Full-stack system managing \textbf{5000+ items}, \textbf{200+ users}; Excel bulk import reducing entry by \textbf{80\%}
+\item Built role-based workflows, depreciation calculation, barcode/QR tracking, and \textbf{15+ analytics reports}
+\item Implemented vendor management, low-stock alerts, and complete audit trail with rollback
+\item \textbf{Tech:} Spring Boot 2.5, Spring Security, MySQL, Thymeleaf, Apache POI, GCP
+\end{itemize}
+
+\switchcolumn
+
+\cvsection{\faStar\ Key Highlights}
+
+\cvachievement{\faRocket}{3.3+ Years Enterprise Java}{Microservices \textbar{} Spring Boot \textbar{} Cloud-Native}
+
+\divider
+
+\cvachievement{\faChartLine}{50K+ Txns/Month @ 99.9\%}{Sub-200ms Latency \textbar{} Zero Downtime}
+
+\divider
+
+\cvachievement{\faLandmark}{Rs.156+ Cr Gov Systems}{Real-Time Budget Tracking \textbar{} 100\% Data Integrity}
+
+\divider
+
+\cvachievement{\faNetworkWired}{IoT \& Industrial Systems}{10K+ Data Points/Min \textbar{} Real-Time Analytics}
+
+\cvsection{\faCogs\ Technical Skills}
+
+\cvsubsection{\faJava\ Backend \& Frameworks}
+\cvtag{Java 8/11/17}
+\cvtag{Spring Boot 2.x/3.x}
+\cvtag{Spring MVC}
+\cvtag{Spring Security}
+\cvtag{Spring Data JPA}
+\cvtag{Spring Cloud}
+\cvtag{Spring AOP}
+\cvtag{Hibernate ORM}
+\cvtag{RESTful APIs}
+\cvtag{WebSocket}
+
+\divider\vspace{-2mm}
+
+\cvsubsection{\faCode\ Frontend}
+\cvtag{Angular}
+\cvtag{TypeScript}
+\cvtag{HTML5/CSS3}
+\cvtag{Bootstrap}
+\cvtag{Thymeleaf}
+
+\divider\smallskip
+
+\cvsubsection{\faDatabase\ Databases \& Caching}
+\cvtag{MySQL 8.x}
+\cvtag{PostgreSQL}
+\cvtag{Redis}
+\cvtag{Caffeine Cache}
+\cvtag{HikariCP}
+\cvtag{Query Optimization}
+
+\divider\smallskip
+
+\cvsubsection{\faCloud\ DevOps \& Cloud}
+\cvtag{AWS (EC2, S3, RDS, ElastiCache)}
+\cvtag{GCP (Compute, Cloud SQL)}
+\cvtag{Azure (App Service, VMs, IoT Hub)}
+\cvtag{Docker}
+\cvtag{Jenkins}
+\cvtag{Git/GitHub}
+\cvtag{CI/CD}
+\cvtag{Linux}
+\cvtag{Tomcat}
+
+\divider\smallskip
+
+\cvsubsection{\faTools\ Tools \& Libraries}
+\cvtag{Maven}
+\cvtag{Gradle}
+\cvtag{JasperReports}
+\cvtag{Apache POI}
+\cvtag{Swagger/OpenAPI}
+\cvtag{Postman}
+\cvtag{IntelliJ IDEA}
+\cvtag{Prometheus}
+\cvtag{Grafana}
+
+\divider\smallskip
+
+\cvsubsection{\faLock\ Security \& Testing}
+\cvtag{JWT}
+\cvtag{OAuth2}
+\cvtag{RBAC}
+\cvtag{JUnit 5}
+\cvtag{Mockito}
+\cvtag{SonarQube}
+
+\divider\smallskip
+
+\cvsubsection{\faMicrochip\ IoT \& Industrial}
+\cvtag{MQTT}
+\cvtag{InfluxDB 2.x}
+\cvtag{Modbus TCP}
+\cvtag{Eclipse Paho}
+\cvtag{Jamod Library}
+\cvtag{NSIS Installer}
+\cvtag{Time-Series DB}
+
+\divider\smallskip
+
+\cvsubsection{\faPlug\ Integrations}
+\cvtag{Razorpay}
+\cvtag{SMS Gateway}
+\cvtag{Email SMTP}
+\cvtag{Barcode/QR Code}
+
+\vspace{1mm}
+
+\cvsection{\faGraduationCap\ Education}
+
+\cvevent{B.E. Electrical Engineering}{Sinhgad College of Engineering}{2012 -- 2016}{Pune, India}
+\begin{itemize}
+\item Focus: Power Systems \& Industrial Automation
+\item Relevant Coursework: Control Systems, Microprocessors, Industrial Electronics
+\end{itemize}
+
+\divider
+
+\cvevent{Java Full Stack Developer}{Seed Infotech Pvt Ltd}{Certified}{}
+\begin{itemize}
+\item Comprehensive training in Java, Spring Boot, Angular, and enterprise application development
+\end{itemize}
+
+\vspace{1mm}
+
+\cvsection{\faTrophy\ Achievements}
+
+\cvachievement{\faAward}{Zero Data Loss Record}{100\% integrity across Rs.500+ Cr \textbar{} 2+ years}
+
+\divider
+
+\cvachievement{\faClock}{30+ Hours/Week Saved}{Automated 20+ reports \textbar{} Eliminated manual processing}
+
+\divider
+
+\cvachievement{\faUsers}{3 Developers Promoted}{Mentored juniors to mid-level \textbar{} Spring Boot mastery}
+
+\vspace{1mm}
+
+\cvsection{\faLightbulb\ Core Strengths}
+
+\cvtag{System Design}
+\cvtag{Microservices Architecture}
+\cvtag{Technical Leadership}
+\cvtag{Agile/Scrum Master}
+\cvtag{Performance Engineering}
+\cvtag{Code Quality Champion}
+\cvtag{Cross-Functional Collaboration}
+\cvtag{Stakeholder Management}
+\cvtag{DevOps Practices}
+\cvtag{Continuous Improvement}
+
+\vspace{1mm}
+
+\cvsection{\faLanguage\ Languages}
+
+\cvtag{English (Professional)}
+\cvtag{Hindi (Native)}
+\cvtag{Marathi (Native)}
+
+
+
+
+\divider
+
+
+
+\end{paracol}
+
+\end{document}
