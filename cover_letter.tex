@@ -1,0 +1,124 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[left=2cm,right=2cm,top=1.2cm,bottom=1.2cm]{geometry}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{parskip}
+\usepackage{tikz}
+\usepackage{enumitem}
+
+% -----------------------------------------------------------------------------
+% TYPOGRAPHY & COLORS (Matching ResumeKt)
+% -----------------------------------------------------------------------------
+% Fonts
+\usepackage[rm]{roboto}
+\usepackage[defaultsans]{lato}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Colors
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{DarkPastelRed}{HTML}{450808}
+\definecolor{PastelRed}{HTML}{8F0D0D}
+\definecolor{GoldenEarth}{HTML}{E7D192}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=PastelRed,
+    urlcolor=PastelRed,
+    pdfborder={0 0 0}
+}
+
+\begin{document}
+\pagestyle{empty} % No page numbers for single page look
+
+% -----------------------------------------------------------------------------
+% HEADER (Enhanced Premium Design)
+% -----------------------------------------------------------------------------
+\begin{center}
+    {\Huge\bfseries\rmfamily\color{DarkPastelRed} Kiran Tilekar}\\[0.3cm]
+    {\Large\bfseries\color{PastelRed} Senior Java Developer | Spring Boot Expert}\\[0.4cm]
+    
+    % Contact info with enhanced design
+    \colorbox{black!3}{%
+        \begin{minipage}{0.95\textwidth}
+            \centering
+            \vspace{0.25cm}
+            {\small\color{SlateGrey}
+            % Primary contact methods with subtle emphasis
+            \colorbox{PastelRed!10}{\color{DarkPastelRed}\faEnvelope\ \href{mailto:kirantilekar@icloud.com}{\textbf{kirantilekar@icloud.com}}} 
+            \enspace\textbullet\enspace
+            \colorbox{PastelRed!10}{\color{DarkPastelRed}\faPhone\ \textbf{+91-9834882015}}
+            \enspace\textbullet\enspace
+            \faMapMarker*\ Pune, India\\[0.2cm]
+            % Social links
+            \faLinkedin\ \href{https://linkedin.com/in/kiran-tilekar-94173382}{\textbf{kiran-tilekar}} 
+            \enspace\textbullet\enspace
+            \faGithub\ \href{https://github.com/Kt129673}{\textbf{Kt129673}}
+            }
+            \vspace{0.25cm}
+        \end{minipage}
+    }
+\end{center}
+
+\vspace{0.1cm}
+\noindent\textcolor{GoldenEarth}{\rule{\textwidth}{1.5pt}}
+\vspace{0.3cm}
+
+% -----------------------------------------------------------------------------
+% COVER LETTER BODY
+% -----------------------------------------------------------------------------
+
+\today
+
+\vspace{0.3cm}
+
+% Recipient Details with enhanced styling
+\noindent
+\begin{minipage}{0.6\textwidth}
+    {\color{DarkPastelRed}\textbf{Hiring Manager}}\\
+    {\color{SlateGrey}\textbf{\textit{Company Name}}}\\
+    {\color{LightGrey}\textit{Company Address}}\\
+    {\color{LightGrey}\textit{City, State, ZIP Code}}
+\end{minipage}
+
+\vspace{0.3cm}
+
+\noindent{\color{DarkPastelRed}\textbf{Subject:}} {\color{SlateGrey}Application for Senior Java Developer -- Enterprise Systems \& High-Availability Architecture}
+
+\vspace{0.3cm}
+
+\noindent Dear Hiring Manager,
+
+\vspace{0.2cm}
+
+With over \textbf{3.3 years of experience} delivering mission-critical enterprise systems at \textbf{AVICS}, I specialize in building robust \textbf{Spring Boot applications} that perform flawlessly under pressure. I architect government financial platforms handling \textbf{Rs.156+ Cr annually} with \textbf{99.9\% uptime} and \textbf{sub-200ms latency} for \textbf{50,000+ monthly transactions}. My approach combines technical excellence with a relentless focus on reliability, security, and performance optimization.
+
+At \textbf{AVICS}, I've been instrumental in architecting and delivering enterprise-grade government systems that demand absolute precision and zero tolerance for failure. My development philosophy centers on three core principles: \textbf{build for reliability from day one}, \textbf{optimize proactively}, and \textbf{treat security as non-negotiable}. This mindset has enabled me to consistently deliver systems that exceed performance benchmarks while maintaining impeccable data integrity. 
+
+Key achievements at \textbf{AVICS} include:
+\begin{itemize}[leftmargin=*,label={\color{PastelRed}\faCheckCircle}]
+    \item \textbf{Engineering Zero Data Loss:} Designed double-entry bookkeeping systems for government treasuries that have maintained \textbf{100\% data integrity} across millions of transactions handling \textbf{Rs.156+ Cr}.
+    \item \textbf{High-Performance Architecture:} Proactively optimized database queries and implemented multi-level caching strategies (Redis/Caffeine) to achieve \textbf{sub-200ms latency} and \textbf{40\% reduction} in database load for 50,000+ monthly transactions.
+    \item \textbf{Automated Reporting Excellence:} Built automated statutory reporting pipelines using JasperReports that generate \textbf{20+ critical government reports}, saving \textbf{30+ hours/week} while ensuring 100\% accuracy.
+    \item \textbf{Security-First Development:} Implemented enterprise-grade security with Spring Security, JWT/OAuth2, and RBAC, protecting financial transactions worth over \textbf{Rs.500+ Cr} with zero security incidents.
+\end{itemize}
+
+Beyond core development, I bring modern expertise in \textbf{Cloud-Native architectures} (AWS/Azure) and \textbf{IoT systems}. I recently architected a data harvesting platform ingesting 10,000+ points/minute, designing self-healing mechanisms that ensure continuity even during network failures.
+
+I am eager to bring this expertise in \textit{backend architecture}, \textit{performance optimization}, and \textit{cloud-native development} to \textbf{\textit{Company Name}}. I am confident that my ability to write clean, scalable, and highly resilient code aligns with your engineering standards.
+
+I look forward to discussing how I can contribute to your team's success. Thank you for your time and consideration.
+
+\vspace{0.6cm}
+
+\noindent Sincerely,
+
+\vspace{0.6cm}
+
+\noindent\textbf{Kiran Tilekar}\\
+{\small Senior Java Developer}
+
+\end{document}
