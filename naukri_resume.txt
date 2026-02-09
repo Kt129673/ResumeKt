@@ -1,0 +1,169 @@
+================================================================================
+                              KIRAN TILEKAR
+             Senior Java Developer | Spring Boot 3.x | Monolithic Architecture
+================================================================================
+
+CONTACT INFORMATION
+-------------------
+Email: kirantilekar@icloud.com
+Phone: +91-9834882015
+Location: Pune, India
+LinkedIn: linkedin.com/in/kiran-tilekar-94173382
+GitHub: github.com/Kt129673
+
+================================================================================
+RESUME HEADLINE (Copy for Naukri)
+================================================================================
+Senior Java Developer | Spring Boot 3.x | Monolithic Architecture | Rs.156Cr+ Govt Systems | 99.9% Uptime | 3.3+ Yrs
+
+================================================================================
+PROFESSIONAL SUMMARY
+================================================================================
+Senior Java Developer with 3.3+ years building mission-critical monolithic enterprise applications using Spring Boot 3.x for government and enterprise clients. Hands-on experience processing Rs.156Cr+ yearly transactions at 99.9% uptime (50,000+ transactions/month, sub-200ms latency) with zero data loss. Strong in modular monolith design (Controller-Service-Repository pattern), Hibernate ORM, Redis caching, and database performance optimization that often outperforms microservices-based alternatives. Monolithic systems designed with modular boundaries for future microservices migration. Experienced with AWS, GCP, Azure, CI/CD pipelines, and IoT systems ingesting 10,000+ data points/min. Known for zero-downtime deployments, 100% data integrity, and mentoring junior developers to mid-level.
+
+================================================================================
+KEY SKILLS (Copy for Naukri Key Skills Section)
+================================================================================
+Spring Boot 3.x, Java 17, Monolithic Architecture, Modular Monolith, REST API, Microservices-ready architecture (modular monolith), Hibernate ORM, Redis, MySQL, PostgreSQL, AWS, GCP, Azure, Angular, Docker, Jenkins, CI/CD, JasperReports, IoT, MQTT, Government Projects, Spring Security, JWT, OAuth2
+
+================================================================================
+EXPERIENCE
+================================================================================
+
+SENIOR SOFTWARE DEVELOPER - AVICS
+Nov 2022 - Present | Pune, India
+---------------------------------
+- Architected enterprise monolithic applications using Spring Boot 3.x and layered architecture (Controller-Service-Repository), handling 50,000+ transactions/month at 99.9% SLA.
+- Designed RESTful APIs with Hibernate ORM and Redis/Caffeine caching, achieving sub-200ms response time and reducing database load by 40%.
+- Implemented JVM tuning, HikariCP connection pooling, and advanced indexing, improving query performance by 60%.
+- Secured systems with Spring Security, JWT/OAuth2, protecting Rs.500+ Cr in transactions and ensuring 100% data integrity.
+- Automated 20+ government reports using JasperReports, saving 30+ hours per week of manual effort.
+- Led a team of 5 developers, reviewed 100+ code changes, and mentored 3 junior developers to mid-level.
+
+QUALITY ASSURANCE ENGINEER - SCHNEIDER ELECTRIC
+Feb 2018 - Nov 2021 | Ahmednagar, India
+---------------------------------------
+- Led quality testing for Medium Voltage systems, achieving 95%+ first-time pass rate.
+- Introduced 8D problem-solving process, reducing product failures by 30%.
+- Collaborated with R&D teams on design improvements, contributing to 3 product certifications.
+
+================================================================================
+KEY PROJECTS
+================================================================================
+
+ZP WORK MANAGEMENT & FINANCIAL SYSTEM
+Feb 2023 - Present
+------------------------------------
+- Monolithic enterprise platform for Maharashtra Zilla Parishads tracking Rs.156+ Cr yearly income across 15 departments with single JAR deployment.
+- Handles 50,000+ transactions/month at 99.9% uptime and processes 100,000+ records in under 5 minutes.
+- Built multi-level approval workflows, digital signatures, activity logging, and live budget dashboards.
+- Added monitoring (Prometheus, Grafana), budget planning, and document storage on AWS S3.
+- Tech: Spring Boot, Spring Security, Angular 14, MySQL, JasperReports, Prometheus, Grafana, AWS.
+
+GOVERNMENT CASHBOOK APPLICATION
+2023 - Present
+-------------------------------
+- Scalable monolithic digital cashbook managing Rs.100+ Cr daily with complete accounting and audit history.
+- Integrated with banks for live updates, cheque tracking, and receipt generation; supports 200+ concurrent users.
+- Implemented automatic daily reconciliation with 100% matching and month-end closing with balance carry-forward.
+- Tech: Spring Boot, Spring Security, Angular 14, MySQL, JasperReports, AWS (EC2, RDS).
+
+IOT DATA COLLECTION PLATFORM
+2024
+----------------------------
+- Monolithic 3-tier IoT platform collecting 10,000+ readings/min from 50+ factory machines.
+- Used PostgreSQL + InfluxDB with smart caching, cutting database calls by 70% and storage costs by 50%.
+- Built live alerts, device health checks, industrial protocol connectors, and remote configuration management.
+- Tech: Spring Boot 3.4, Java 17, InfluxDB, PostgreSQL, MQTT, Azure (VMs, IoT Hub).
+
+ONLINE EXAMINATION PORTAL
+Jun 2024 - Present
+--------------------------
+- Built exam platform supporting 1,000+ concurrent students with live sync and cheating-prevention mechanisms.
+- Implemented question bank (10,000+ questions), auto-grading, scheduling, bulk student upload, and email notifications.
+- Added live monitoring, performance dashboards, and QR-code-based certificate generation.
+- Tech: Spring Boot, Angular 16, MySQL, WebSocket, JWT, Redis, AWS (EC2, ElastiCache).
+
+GROUND BOOKING MANAGEMENT SYSTEM
+Aug 2024 - Present
+----------------------------------
+- Sports ground booking system for 20+ grounds generating Rs.10+ Lakhs/month with dynamic pricing.
+- Implemented slot booking with overlap detection, memberships, loyalty programs, and 10+ financial reports.
+- Tech: Spring Boot, Angular 14, MySQL, JasperReports, Azure (App Service, SQL Database).
+
+ITI INVENTORY MANAGEMENT SYSTEM
+2022 - 2024
+-------------------------------
+- Tracked 5,000+ items for 200+ users with Excel upload reducing data entry by 80%.
+- Implemented permissions, depreciation, barcode/QR scanning, multi-location stock, and undoable history.
+- Tech: Spring Boot 2.5, Spring Security, MySQL, Thymeleaf, Apache POI, GCP.
+
+================================================================================
+KEY HIGHLIGHTS
+================================================================================
+- 3.3+ years enterprise Java, monolithic and modular monolith systems.
+- 50,000+ transactions/month at 99.9% uptime with sub-200ms latency, zero downtime.
+- Rs.156+ Cr government financial systems with real-time budget tracking and 100% data integrity.
+- IoT and industrial systems ingesting 10,000+ data points/min with real-time analytics.
+
+================================================================================
+TECHNICAL SKILLS
+================================================================================
+
+ARCHITECTURE:
+Monolithic Architecture, Modular Monolith, Layered Architecture, Microservices-ready architecture (modular monolith), 3-tier Design
+
+BACKEND & FRAMEWORKS:
+Java 8/11/17, Spring Boot 2.x/3.x, Spring MVC, Spring Security, Spring Data JPA, Spring Cloud, Spring AOP, Hibernate ORM, RESTful APIs, WebSocket
+
+FRONTEND:
+Angular, TypeScript, HTML5/CSS3, Bootstrap, Thymeleaf
+
+DATABASES & CACHING:
+MySQL 8.x, PostgreSQL, Redis, Caffeine Cache, HikariCP, Query Optimization
+
+DEVOPS & CLOUD:
+AWS (EC2, S3, RDS, ElastiCache), GCP (Compute, Cloud SQL), Azure (App Service, VMs, IoT Hub), Docker, Jenkins, Git/GitHub, CI/CD, Linux, Tomcat
+
+TOOLS & LIBRARIES:
+Maven, Gradle, JasperReports, Apache POI, Swagger/OpenAPI, Postman, IntelliJ IDEA, Prometheus, Grafana
+
+SECURITY & TESTING:
+JWT, OAuth2, RBAC, JUnit 5, Mockito, SonarQube
+
+IOT & INDUSTRIAL:
+MQTT, InfluxDB 2.x, Modbus TCP, Eclipse Paho, Jamod, Time-series DB
+
+INTEGRATIONS:
+Razorpay, SMS Gateway, Email SMTP, Barcode/QR Code
+
+================================================================================
+EDUCATION
+================================================================================
+B.E. ELECTRICAL ENGINEERING
+Sinhgad College of Engineering, Pune (2012 - 2016)
+- Focus: Power Systems & Industrial Automation
+- Relevant Coursework: Control Systems, Microprocessors, Industrial Electronics
+
+JAVA FULL STACK DEVELOPER CERTIFICATION
+Seed Infotech Pvt Ltd
+- Comprehensive training in Java, Spring Boot, Angular, and enterprise application development
+
+================================================================================
+ACHIEVEMENTS
+================================================================================
+- Zero data loss across Rs.500+ Cr transactions over 2+ years.
+- Automated 20+ reports, saving 30+ hours per week of manual work.
+- Mentored and promoted 3 developers from junior to mid-level.
+
+================================================================================
+CORE STRENGTHS
+================================================================================
+System Design, Monolithic Architecture, Performance Engineering, Technical Leadership, Agile/Scrum, Code Quality, DevOps Practices, Stakeholder Management, Continuous Improvement
+
+================================================================================
+LANGUAGES
+================================================================================
+English (Professional), Hindi (Native), Marathi (Native)
+
+================================================================================

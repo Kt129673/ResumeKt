@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.3)  9 FEB 2026 09:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.3)  9 FEB 2026 10:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -787,7 +787,7 @@ nc}{C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/f
 a5free2.enc}{C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fonta
 wesome5/fa5brands0.enc}{C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/enc/
 dvips/lato/a_vc7epu.enc}{C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/enc
-/dvips/fontawesome5/fa5free0.enc}] (cover_letter.aux)
+/dvips/fontawesome5/fa5free0.enc}] [2] (cover_letter.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -796,13 +796,13 @@ Package rerunfilecheck Info: File `cover_letter.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23864 strings out of 467870
- 464277 string characters out of 5418356
- 833389 words of memory out of 5000000
+ 23865 strings out of 467870
+ 464283 string characters out of 5418356
+ 832389 words of memory out of 5000000
  52362 multiletter control sequences out of 15000+600000
  671994 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,5n,107p,710b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,5n,107p,709b,473s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5
 /FontAwesome5Brands-Regular.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/kiran/AppDa
@@ -812,9 +812,9 @@ C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/typoland/lato/Lato-Ita
 lic.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/typoland/lato
 /Lato-Regular.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/goo
 gle/roboto/RobotoSlab-Bold.pfb>
-Output written on cover_letter.pdf (1 page, 158274 bytes).
+Output written on cover_letter.pdf (2 pages, 158930 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
+ 73 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
