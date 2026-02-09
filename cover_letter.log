@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.3)  6 FEB 2026 15:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.3)  9 FEB 2026 09:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -759,6 +759,13 @@ LaTeX Font Info:    Font shape `OT1/lato-TLF/b/it' will be
 (Font)              scaled to size 10.0pt on input line 82.
 LaTeX Font Info:    Font shape `OT1/lato-TLF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 83.
+
+Overfull \hbox (14.16426pt too wide) in paragraph at lines 97--98
+\OT1/lato-TLF/m/n/10 build-ing enterprise-grade \OT1/lato-TLF/b/n/10 Spring Boo
+t 3.x \OT1/lato-TLF/m/n/10 sys-tems with \OT1/lato-TLF/b/n/10 mod-u-lar lay-ere
+d ar-chi-tec-ture \OT1/lato-TLF/m/n/10 (Controller-Service-Repository
+ []
+
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
 nput line 102.
 
@@ -791,11 +798,11 @@ Package rerunfilecheck Info: File `cover_letter.out' has not changed.
 Here is how much of TeX's memory you used:
  23864 strings out of 467870
  464277 string characters out of 5418356
- 831389 words of memory out of 5000000
+ 833389 words of memory out of 5000000
  52362 multiletter control sequences out of 15000+600000
  671994 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,5n,107p,568b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,5n,107p,710b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5
 /FontAwesome5Brands-Regular.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/kiran/AppDa
@@ -805,7 +812,7 @@ C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/typoland/lato/Lato-Ita
 lic.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/typoland/lato
 /Lato-Regular.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/goo
 gle/roboto/RobotoSlab-Bold.pfb>
-Output written on cover_letter.pdf (1 page, 157858 bytes).
+Output written on cover_letter.pdf (1 page, 158274 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
