@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1770277683.13711 "c:/Users/kiran/Desktop/3_years/sample.tex" "sample.pdf" "sample" 1770277689.61499 0
-  "C:/Users/kiran/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1770137801 414978 374e8f2143c214eecf097aa35908f91c ""
+["pdflatex"] 1770615294.16809 "c:/Users/kiran/Desktop/ResumeKt/sample.tex" "sample.pdf" "sample" 1770615299.86171 0
+  "C:/Users/kiran/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1770612787 414978 374e8f2143c214eecf097aa35908f91c ""
   "C:/Users/kiran/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1770137395 13333527 12dceacb1139325dd4ae9464503c7326 ""
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1651500229 2920 d63721872b8c77041b88e51b8f7c291d ""
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1651500229 3083 a707712f77b073b3833e4b1334a30e99 ""
@@ -195,6 +195,7 @@
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/tex/latex/mmap/omx.cmap" 1215051860 3001 252c8ca42b06a22cb1a11c0e47790c6e ""
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/tex/latex/multirow/multirow.sty" 1731767677 6696 886c9f3087d0b973ed2c19aa79cb3023 ""
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/tex/latex/mweights/mweights.sty" 1570501985 4953 67f29a12ea26221103fce6bae3433e60 ""
+  "C:/Users/kiran/AppData/Local/Programs/MiKTeX/tex/latex/needspace/needspace.sty" 1742730683 1297 95e05b694b6d7375c39c5145fe24b731 ""
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/tex/latex/paracol/paracol.sty" 1753373920 106685 f6c0f1e159fdd8807ac643faddec1c2b ""
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/tex/latex/pdfx/8bit.def" 1720346293 5962 2aa7a2da2d9394f9da33cf2a55c50b0a ""
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/tex/latex/pdfx/AdobeColorProfiles.tex" 1720346293 18025 2a8c02d866533f30ba38e1fc80d41d5e ""
@@ -234,12 +235,12 @@
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/tex/latex/xmpincl/xmpincl.sty" 1633254124 2832 d498c59e94b7dfa3b4bcf74380ad6348 ""
-  "altacv.cls" 1770115972 17713 2766496d895be383a78bb8c4388bb69f ""
-  "c:/Users/kiran/Desktop/3_years/sample.tex" 1770277681 13668 6d29aca8c7a56eb59b0bd6e1bdaf0bea ""
-  "pdfa.xmpi" 1770277685 5042 05e1dbeeb8348af45f2e2ed109674d28 "pdflatex"
-  "sample.aux" 1770277688 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "sample.out" 1770277687 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "sample.tex" 1770277681 13668 6d29aca8c7a56eb59b0bd6e1bdaf0bea ""
+  "altacv.cls" 1770280591 18204 2766496d895be383a78bb8c4388bb69f ""
+  "c:/Users/kiran/Desktop/ResumeKt/sample.tex" 1770614376 13898 0526c8a102286d535ca61c184bdc8bdc ""
+  "pdfa.xmpi" 1770615295 5042 6f0fd80e487b93ecad34f943911ab7d2 "pdflatex"
+  "sample.aux" 1770615298 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "sample.out" 1770615297 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "sample.tex" 1770614376 13898 0526c8a102286d535ca61c184bdc8bdc ""
   (generated)
   "pdfa.xmpi"
   "sample.aux"
