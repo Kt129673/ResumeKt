@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.3)  9 FEB 2026 10:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.3)  9 FEB 2026 10:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1316,6 +1316,9 @@ Package: paracol 2025/07/14 1.37 typeset columns in parallel
 \pcol@tempboxb=\box85
 \pcol@colorins=\insert252
 \pcol@everyvbox=\toks44
+)
+(C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
+Package: needspace 2025/03/13 v1.3e reserve vertical space
 ) (C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex/latex/roboto\roboto.sty
 Package: roboto 2022/09/10 (Bob Tennent) Supports Roboto fonts for all LaTeX en
 gines.
@@ -1340,35 +1343,35 @@ Already applied: [0000-00-00] Fall back to v1 on input line 76.
 Package: lato 2019/06/20 Style file for Lato.
 )
 LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input li
-ne 40.
+ne 41.
 
 (C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex/latex/lato\t1lato-tlf.fd
 File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 40.
+(Font)              scaled to size 8.0pt on input line 41.
 
 (sample.aux)
 \openout1 = `sample.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 (C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1395,7 +1398,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 40.
+Package hyperref Info: Link coloring OFF on input line 41.
  (sample.out) (sample.out)
 \@outlinefile=\write5
 \openout5 = `sample.out'.
@@ -1438,9 +1441,9 @@ Package hyperref Info: Link coloring OFF on input line 40.
 \c@mv@tabular=\count349
 \c@mv@boldtabular=\count350
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 52.
+(Font)              scaled to size 17.28pt on input line 53.
 LaTeX Font Info:    Trying to load font information for T1+RobotoSlab-TLF on in
-put line 52.
+put line 53.
 
 (C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex/latex/roboto\t1robotoslab-tlf
 .fd
@@ -1448,71 +1451,71 @@ File: T1RobotoSlab-TLF.fd 2019/12/11 (autoinst) Font definitions for T1/RobotoS
 lab-TLF.
 )
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 52.
+(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 53.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/b/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 52.
+(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 53.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 52.
+(Font)              scaled to size 10.0pt on input line 53.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 52.
+(Font)              scaled to size 10.0pt on input line 53.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 52.
+(Font)              scaled to size 6.0pt on input line 53.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 52.
+nput line 53.
 
 (C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mefree0.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 52.
+nput line 53.
 
 (C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mefree2.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 52.
+ input line 53.
 
 (C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <6> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 52.
+n input line 53.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 52.
+(Font)              <6> on input line 53.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 52.
+(Font)              <5> on input line 53.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 59.
+(Font)              scaled to size 12.0pt on input line 60.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 59.
+(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 60.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/b/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 59.
+(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 60.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on i
-nput line 59.
+nput line 60.
 
 (C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mefree3.fd)
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 61.
+(Font)              scaled to size 8.0pt on input line 62.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 65.
+(Font)              scaled to size 7.0pt on input line 66.
 LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input l
-ine 67.
+ine 68.
 
 (C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex/latex/lato\ts1lato-tlf.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 67.
+(Font)              scaled to size 8.0pt on input line 68.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 87.
+nput line 88.
 
 (C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mefree1.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not 
 available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 192.
+n input line 195.
  [1
 
 {C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/roboto/rbto_j2bk2
@@ -1533,13 +1536,13 @@ Package rerunfilecheck Info: File `sample.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 36137 strings out of 467870
- 730213 string characters out of 5418356
- 1164804 words of memory out of 5000000
- 64423 multiletter control sequences out of 15000+600000
+ 36160 strings out of 467870
+ 730883 string characters out of 5418356
+ 1167893 words of memory out of 5000000
+ 64442 multiletter control sequences out of 15000+600000
  856270 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,10n,121p,859b,2315s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,10n,121p,1022b,2337s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5
 /FontAwesome5Brands-Regular.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/kiran/App
@@ -1548,7 +1551,7 @@ id.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/typoland/lato/
 Lato-Bold.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/typolan
 d/lato/Lato-Regular.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/google/roboto/RobotoSlab-Bold.pfb>
-Output written on sample.pdf (2 pages, 198339 bytes).
+Output written on sample.pdf (2 pages, 199134 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
