@@ -90,10 +90,17 @@ const headerParagraphs = [
     spacing: { after: 40 },
   }),
   new Paragraph({
-    children: [new TextRun({
-      text: "Senior Java Developer | Spring Boot 3.x | Monolithic Architecture | 99.9% Uptime | Rs.156Cr+ Systems | 3.3+ Yrs | Immediate Joiner",
-      font: "Calibri", size: 20, color: PASTEL_RED, italics: true,
-    })],
+    children: [
+      new TextRun({
+        text: "Senior Java Developer | Spring Boot 3.x | Monolithic Architecture",
+        font: "Calibri", size: 20, color: PASTEL_RED, italics: true,
+      }),
+      new TextRun({
+        text: "99.9% Uptime | Rs.156Cr+ Systems | 3.3+ Yrs | Immediate Joiner",
+        font: "Calibri", size: 20, color: PASTEL_RED, italics: true,
+        break: 1,
+      })
+    ],
     spacing: { after: 40 },
   }),
   new Paragraph({
@@ -148,6 +155,7 @@ const experienceSection = [
   bulletItem([bold("Automated government reports"), normal(" with JasperReports, creating "), bold("20+ reports"), normal(" and saving "), bold("30+ hrs/week")]),
   bulletItem([bold("Set up caching system"), normal(" using Redis + Caffeine, reducing database load by "), bold("40%")]),
   bulletItem([bold("Led team of 5 developers"), normal(", reviewed 100+ code changes, and trained "), bold("3 junior developers"), normal(" to mid-level")]),
+  bulletItem([bold("Remote Work Excellence: "), normal("Successfully delivered high-quality code and collaborated with cross-functional teams in a "), bold("100% remote environment"), normal(".")]),
   divider(),
   eventHeading("Quality Assurance Engineer", "Schneider Electric", "Feb 2018 – Nov 2021", "Ahmednagar, India"),
   bulletItem([bold("Led quality testing"), normal(" for Medium Voltage systems, achieving "), bold("95%+ first-time pass rate")]),

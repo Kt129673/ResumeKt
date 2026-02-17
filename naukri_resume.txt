@@ -39,6 +39,7 @@ Nov 2022 - 31 Jan 2026 | Pune, India
 - Secured systems with Spring Security, JWT/OAuth2, protecting Rs.500+ Cr in transactions and ensuring 100% data integrity.
 - Automated 20+ government reports using JasperReports, saving 30+ hours per week of manual effort.
 - Led a team of 5 developers, reviewed 100+ code changes, and mentored 3 junior developers to mid-level.
+- Remote Work Excellence: Successfully delivered high-quality code and collaborated with cross-functional teams in a 100% remote environment.
 
 QUALITY ASSURANCE ENGINEER - SCHNEIDER ELECTRIC
 Feb 2018 - Nov 2021 | Ahmednagar, India
