@@ -267,7 +267,7 @@ const technicalSkillsSection = [
   tagsParagraph(["MySQL 8.x", "PostgreSQL", "Redis", "Caffeine Cache", "HikariCP", "Query Optimization"]),
 
   subSectionHeading("DevOps & Cloud"),
-  tagsParagraph(["AWS (EC2, S3, RDS)", "DigitalOcean", "Linux Server", "Docker", "Jenkins", "Git/GitHub", "CI/CD", "Tomcat", "SSH/PuTTY", "FileZilla/FTP"]),
+  tagsParagraph(["AWS (EC2, S3, RDS)", "DigitalOcean", "Linux Server", "Jenkins", "Git/GitHub", "GitHub Actions", "CI/CD", "Tomcat", "SSH/PuTTY", "FileZilla/FTP"]),
 
   subSectionHeading("Tools & Libraries"),
   tagsParagraph(["Maven", "Gradle", "JasperReports", "Apache POI", "Swagger/OpenAPI", "Postman", "IntelliJ IDEA", "GitHub Copilot", "Jira", "Confluence", "Prometheus", "Grafana"]),

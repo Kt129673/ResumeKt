@@ -24,7 +24,7 @@ Senior Java and Backend Developer with 3.3+ years building mission-critical mono
 ================================================================================
 KEY SKILLS (Copy for Naukri Key Skills Section)
 ================================================================================
-Spring Boot 3.x, Java 17, Monolithic Architecture, Modular Monolith, REST API, Microservices-ready architecture (modular monolith), Hibernate ORM, Redis, MySQL, PostgreSQL, AWS, GCP, Azure, Angular, Docker, Jenkins, CI/CD, JasperReports, IoT, MQTT, Government Projects, Spring Security, JWT, OAuth2
+Spring Boot 3.x, Java 17, Monolithic Architecture, Modular Monolith, REST API, Microservices-ready architecture (modular monolith), Hibernate ORM, Redis, MySQL, PostgreSQL, AWS, GCP, Azure, Angular, Jenkins, CI/CD, JasperReports, IoT, MQTT, Government Projects, Spring Security, JWT, OAuth2
 
 ================================================================================
 EXPERIENCE
@@ -128,8 +128,7 @@ Angular, TypeScript, HTML5/CSS3, Bootstrap, Thymeleaf
 DATABASES & CACHING:
 MySQL 8.x, PostgreSQL, Redis, Caffeine Cache, HikariCP, Query Optimization
 
-DEVOPS & CLOUD:
-AWS (EC2, S3, RDS), DigitalOcean, Linux Server, Docker, Jenkins, Git/GitHub, CI/CD, Tomcat, SSH/PuTTY, FileZilla/FTP
+AWS (EC2, S3, RDS), DigitalOcean, Linux Server, Jenkins, Git/GitHub, GitHub Actions, CI/CD, Tomcat, SSH/PuTTY, FileZilla/FTP
 
 TOOLS & LIBRARIES:
 Maven, Gradle, JasperReports, Apache POI, Swagger/OpenAPI, Postman, IntelliJ IDEA, GitHub Copilot, Jira, Confluence, Prometheus, Grafana
