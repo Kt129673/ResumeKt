@@ -40,6 +40,7 @@ Nov 2022 - 31 Jan 2026 | Pune, India
 - Automated 20+ government reports using JasperReports, saving 30+ hours per week of manual effort.
 - Led a team of 5 developers, reviewed 100+ code changes, and mentored 3 junior developers to mid-level.
 - Remote Work Excellence: Successfully delivered high-quality code and collaborated with cross-functional teams in a 100% remote environment.
+- Agile Leadership: Managed Sprint workflows and documentation using Jira & Confluence, ensuring on-time delivery of features.
 
 QUALITY ASSURANCE ENGINEER - SCHNEIDER ELECTRIC
 Feb 2018 - Nov 2021 | Ahmednagar, India
@@ -127,7 +128,7 @@ DEVOPS & CLOUD:
 AWS (EC2, S3, RDS), DigitalOcean, Linux Server, Docker, Jenkins, Git/GitHub, CI/CD, Tomcat, SSH/PuTTY, FileZilla/FTP
 
 TOOLS & LIBRARIES:
-Maven, Gradle, JasperReports, Apache POI, Swagger/OpenAPI, Postman, IntelliJ IDEA, GitHub Copilot, Prometheus, Grafana
+Maven, Gradle, JasperReports, Apache POI, Swagger/OpenAPI, Postman, IntelliJ IDEA, GitHub Copilot, Jira, Confluence, Prometheus, Grafana
 
 SECURITY & TESTING:
 JWT, OAuth2, RBAC, JUnit 5, Mockito, SonarQube

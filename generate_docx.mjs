@@ -156,6 +156,7 @@ const experienceSection = [
   bulletItem([bold("Set up caching system"), normal(" using Redis + Caffeine, reducing database load by "), bold("40%")]),
   bulletItem([bold("Led team of 5 developers"), normal(", reviewed 100+ code changes, and trained "), bold("3 junior developers"), normal(" to mid-level")]),
   bulletItem([bold("Remote Work Excellence: "), normal("Successfully delivered high-quality code and collaborated with cross-functional teams in a "), bold("100% remote environment"), normal(".")]),
+  bulletItem([bold("Agile Leadership: "), normal("Managed "), bold("Sprint workflows"), normal(" and documentation using "), bold("Jira & Confluence"), normal(", ensuring "), bold("on-time delivery"), normal(" of features.")]),
   divider(),
   eventHeading("Quality Assurance Engineer", "Schneider Electric", "Feb 2018 – Nov 2021", "Ahmednagar, India"),
   bulletItem([bold("Led quality testing"), normal(" for Medium Voltage systems, achieving "), bold("95%+ first-time pass rate")]),
@@ -265,7 +266,7 @@ const technicalSkillsSection = [
   tagsParagraph(["AWS (EC2, S3, RDS)", "DigitalOcean", "Linux Server", "Docker", "Jenkins", "Git/GitHub", "CI/CD", "Tomcat", "SSH/PuTTY", "FileZilla/FTP"]),
 
   subSectionHeading("Tools & Libraries"),
-  tagsParagraph(["Maven", "Gradle", "JasperReports", "Apache POI", "Swagger/OpenAPI", "Postman", "IntelliJ IDEA", "GitHub Copilot", "Prometheus", "Grafana"]),
+  tagsParagraph(["Maven", "Gradle", "JasperReports", "Apache POI", "Swagger/OpenAPI", "Postman", "IntelliJ IDEA", "GitHub Copilot", "Jira", "Confluence", "Prometheus", "Grafana"]),
 
   subSectionHeading("Security & Testing"),
   tagsParagraph(["JWT", "OAuth2", "RBAC", "JUnit 5", "Mockito", "SonarQube"]),
