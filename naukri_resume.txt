@@ -19,7 +19,7 @@ Senior Java Developer | Spring Boot 3.x | Monolithic Architecture | Rs.156Cr+ Go
 ================================================================================
 PROFESSIONAL SUMMARY
 ================================================================================
-Senior Java and Backend Developer with 3.3+ years building mission-critical monolithic enterprise applications using Spring Boot 3.x for government and enterprise clients. Hands-on experience processing Rs.156Cr+ yearly transactions at 99.9% uptime (50,000+ transactions/month, sub-200ms latency) with zero data loss. Strong in modular monolith design (Controller-Service-Repository pattern), Hibernate ORM, Redis caching, and database performance optimization that often outperforms microservices-based alternatives. Monolithic systems designed with modular boundaries for future microservices migration. Cloud deployment experience with AWS and DigitalOcean, CI/CD pipelines, and IoT systems ingesting 10,000+ data points/min. Productive in modern workflows using Git, GitHub, and AI-assisted coding (GitHub Copilot) to accelerate delivery. Known for zero-downtime deployments, 100% data integrity, and mentoring junior developers to mid-level.
+Senior Java and Backend Developer with 3.3+ years building mission-critical monolithic enterprise applications using Spring Boot 3.x for government and enterprise clients. Hands-on experience processing Rs.156Cr+ yearly transactions at 99.9% uptime (50,000+ transactions/month, sub-200ms latency) with zero data loss. Strong in modular monolith design (Controller-Service-Repository pattern), Hibernate ORM, Redis caching, and database performance optimization that often outperforms microservices-based alternatives. Monolithic systems designed with modular boundaries for future microservices migration. Cloud deployment experience with AWS and DigitalOcean, CI/CD pipelines, and IoT systems ingesting 10,000+ data points/min. Productive in modern workflows using Git, GitHub, and AI-assisted coding (GitHub Copilot, Antigravity) to accelerate delivery. Known for zero-downtime deployments, 100% data integrity, and mentoring junior developers to mid-level.
 
 ================================================================================
 KEY SKILLS (Copy for Naukri Key Skills Section)
@@ -41,7 +41,7 @@ Nov 2022 - 31 Jan 2026 | Pune, India
 - Led a team of 5 developers, reviewed 100+ code changes, and mentored 3 junior developers to mid-level.
 - Remote Work Excellence: Successfully delivered high-quality code and collaborated with cross-functional teams in a 100% remote environment.
 - Agile Leadership: Managed Sprint workflows and documentation using Jira & Confluence, ensuring on-time delivery of features.
-- AI-Assisted Development: Leveraged GitHub Copilot to accelerate boilerplate code generation, reducing development time by 30% for standard CRUD modules.
+- AI-Assisted Development: Leveraged GitHub Copilot & Antigravity to accelerate boilerplate code generation, reducing development time by 30% for standard CRUD modules.
 - Test-Driven Development: Enforced TDD using JUnit 5 & Mockito, achieving 85%+ code coverage and reducing post-production bugs by 40%.
 - API Standardization: Standardized API documentation using Swagger/OpenAPI, reducing frontend-backend integration friction and onboarding time for new developers by 20%.
 - DevOps Automation: Configured CI/CD pipelines using Jenkins/GitHub Actions to automate builds and deployments to AWS EC2, cutting deployment time from 1 hour to 10 minutes.
@@ -131,7 +131,7 @@ MySQL 8.x, PostgreSQL, Redis, Caffeine Cache, HikariCP, Query Optimization
 AWS (EC2, S3, RDS), DigitalOcean, Linux Server, Jenkins, Git/GitHub, GitHub Actions, CI/CD, Tomcat, SSH/PuTTY, FileZilla/FTP
 
 TOOLS & LIBRARIES:
-Maven, Gradle, JasperReports, Apache POI, Swagger/OpenAPI, Postman, IntelliJ IDEA, GitHub Copilot, Jira, Confluence, Prometheus, Grafana
+Maven, Gradle, JasperReports, Apache POI, Swagger/OpenAPI, Postman, IntelliJ IDEA, GitHub Copilot, Antigravity, Jira, Confluence, Prometheus, Grafana
 
 SECURITY & TESTING:
 JWT, OAuth2, RBAC, JUnit 5, Mockito, SonarQube

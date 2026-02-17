@@ -137,7 +137,8 @@ const summarySection = [
       bold("CI/CD pipelines"), normal(", and "), bold("IoT systems"),
       normal(" (10K+ data points/min). Productive in modern workflows using "),
       bold("Git"), normal(", "), bold("GitHub"), normal(", and "),
-      bold("AI-assisted coding (GitHub Copilot)"), normal(" to accelerate delivery. Known for "),
+      bold("Git"), normal(", "), bold("GitHub"), normal(", and "),
+      bold("AI-assisted coding (GitHub Copilot, Antigravity)"), normal(" to accelerate delivery. Known for "),
       bold("zero-downtime deployments"), normal(" and "), bold("100% data integrity"), normal("."),
     ],
     spacing: { before: 40, after: 80 },
@@ -157,7 +158,7 @@ const experienceSection = [
   bulletItem([bold("Led team of 5 developers"), normal(", reviewed 100+ code changes, and trained "), bold("3 junior developers"), normal(" to mid-level")]),
   bulletItem([bold("Remote Work Excellence: "), normal("Successfully delivered high-quality code and collaborated with cross-functional teams in a "), bold("100% remote environment"), normal(".")]),
   bulletItem([bold("Agile Leadership: "), normal("Managed "), bold("Sprint workflows"), normal(" and documentation using "), bold("Jira & Confluence"), normal(", ensuring "), bold("on-time delivery"), normal(" of features.")]),
-  bulletItem([bold("AI-Assisted Development: "), normal("Leveraged "), bold("GitHub Copilot"), normal(" to accelerate boilerplate code generation, reducing development time by "), bold("30%"), normal(" for standard CRUD modules.")]),
+  bulletItem([bold("AI-Assisted Development: "), normal("Leveraged "), bold("GitHub Copilot & Antigravity"), normal(" to accelerate boilerplate code generation, reducing development time by "), bold("30%"), normal(" for standard CRUD modules.")]),
   bulletItem([bold("Test-Driven Development: "), normal("Enforced "), bold("TDD"), normal(" using "), bold("JUnit 5 & Mockito"), normal(", achieving "), bold("85%+ code coverage"), normal(" and reducing post-production bugs by "), bold("40%"), normal(".")]),
   bulletItem([bold("API Standardization: "), normal("Standardized API documentation using "), bold("Swagger/OpenAPI"), normal(", reducing frontend-backend integration friction and onboarding time for new developers by "), bold("20%"), normal(".")]),
   bulletItem([bold("DevOps Automation: "), normal("Configured "), bold("CI/CD pipelines"), normal(" using "), bold("Jenkins/GitHub Actions"), normal(" to automate builds and deployments to "), bold("AWS EC2"), normal(", cutting deployment time from 1 hour to "), bold("10 minutes"), normal(".")]),
@@ -270,7 +271,7 @@ const technicalSkillsSection = [
   tagsParagraph(["AWS (EC2, S3, RDS)", "DigitalOcean", "Linux Server", "Jenkins", "Git/GitHub", "GitHub Actions", "CI/CD", "Tomcat", "SSH/PuTTY", "FileZilla/FTP"]),
 
   subSectionHeading("Tools & Libraries"),
-  tagsParagraph(["Maven", "Gradle", "JasperReports", "Apache POI", "Swagger/OpenAPI", "Postman", "IntelliJ IDEA", "GitHub Copilot", "Jira", "Confluence", "Prometheus", "Grafana"]),
+  tagsParagraph(["Maven", "Gradle", "JasperReports", "Apache POI", "Swagger/OpenAPI", "Postman", "IntelliJ IDEA", "GitHub Copilot", "Antigravity", "Jira", "Confluence", "Prometheus", "Grafana"]),
 
   subSectionHeading("Security & Testing"),
   tagsParagraph(["JWT", "OAuth2", "RBAC", "JUnit 5", "Mockito", "SonarQube"]),
