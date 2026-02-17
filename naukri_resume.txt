@@ -41,6 +41,10 @@ Nov 2022 - 31 Jan 2026 | Pune, India
 - Led a team of 5 developers, reviewed 100+ code changes, and mentored 3 junior developers to mid-level.
 - Remote Work Excellence: Successfully delivered high-quality code and collaborated with cross-functional teams in a 100% remote environment.
 - Agile Leadership: Managed Sprint workflows and documentation using Jira & Confluence, ensuring on-time delivery of features.
+- AI-Assisted Development: Leveraged GitHub Copilot to accelerate boilerplate code generation, reducing development time by 30% for standard CRUD modules.
+- Test-Driven Development: Enforced TDD using JUnit 5 & Mockito, achieving 85%+ code coverage and reducing post-production bugs by 40%.
+- API Standardization: Standardized API documentation using Swagger/OpenAPI, reducing frontend-backend integration friction and onboarding time for new developers by 20%.
+- DevOps Automation: Configured CI/CD pipelines using Jenkins/GitHub Actions to automate builds and deployments to AWS EC2, cutting deployment time from 1 hour to 10 minutes.
 
 QUALITY ASSURANCE ENGINEER - SCHNEIDER ELECTRIC
 Feb 2018 - Nov 2021 | Ahmednagar, India
@@ -147,16 +151,12 @@ Sinhgad College of Engineering, Pune (2012 - 2016)
 - Focus: Power Systems & Industrial Automation
 - Relevant Coursework: Control Systems, Microprocessors, Industrial Electronics
 
-JAVA FULL STACK DEVELOPER CERTIFICATION
+JAVA FULL STACK DEVELOPER CERTIFICATION (2022)
 Seed Infotech Pvt Ltd
 - Comprehensive training in Java, Spring Boot, Angular, and enterprise application development
 
 ================================================================================
-ACHIEVEMENTS
-================================================================================
-- Zero data loss across Rs.500+ Cr transactions over 2+ years.
-- Automated 20+ reports, saving 30+ hours per week of manual work.
-- Mentored and promoted 3 developers from junior to mid-level.
+
 
 ================================================================================
 CORE STRENGTHS

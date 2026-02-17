@@ -157,6 +157,10 @@ const experienceSection = [
   bulletItem([bold("Led team of 5 developers"), normal(", reviewed 100+ code changes, and trained "), bold("3 junior developers"), normal(" to mid-level")]),
   bulletItem([bold("Remote Work Excellence: "), normal("Successfully delivered high-quality code and collaborated with cross-functional teams in a "), bold("100% remote environment"), normal(".")]),
   bulletItem([bold("Agile Leadership: "), normal("Managed "), bold("Sprint workflows"), normal(" and documentation using "), bold("Jira & Confluence"), normal(", ensuring "), bold("on-time delivery"), normal(" of features.")]),
+  bulletItem([bold("AI-Assisted Development: "), normal("Leveraged "), bold("GitHub Copilot"), normal(" to accelerate boilerplate code generation, reducing development time by "), bold("30%"), normal(" for standard CRUD modules.")]),
+  bulletItem([bold("Test-Driven Development: "), normal("Enforced "), bold("TDD"), normal(" using "), bold("JUnit 5 & Mockito"), normal(", achieving "), bold("85%+ code coverage"), normal(" and reducing post-production bugs by "), bold("40%"), normal(".")]),
+  bulletItem([bold("API Standardization: "), normal("Standardized API documentation using "), bold("Swagger/OpenAPI"), normal(", reducing frontend-backend integration friction and onboarding time for new developers by "), bold("20%"), normal(".")]),
+  bulletItem([bold("DevOps Automation: "), normal("Configured "), bold("CI/CD pipelines"), normal(" using "), bold("Jenkins/GitHub Actions"), normal(" to automate builds and deployments to "), bold("AWS EC2"), normal(", cutting deployment time from 1 hour to "), bold("10 minutes"), normal(".")]),
   divider(),
   eventHeading("Quality Assurance Engineer", "Schneider Electric", "Feb 2018 – Nov 2021", "Ahmednagar, India"),
   bulletItem([bold("Led quality testing"), normal(" for Medium Voltage systems, achieving "), bold("95%+ first-time pass rate")]),
@@ -284,16 +288,11 @@ const educationSection = [
   bulletItem([normal("Focus: Power Systems & Industrial Automation")]),
   bulletItem([normal("Relevant Coursework: Control Systems, Microprocessors, Industrial Electronics")]),
   divider(),
-  eventHeading("Java Full Stack Developer", "Seed Infotech Pvt Ltd", "Certified", ""),
+  eventHeading("Java Full Stack Developer", "Seed Infotech Pvt Ltd", "2022", ""),
   bulletItem([normal("Comprehensive training in Java, Spring Boot, Angular, and enterprise application development")]),
 ];
 
-const achievementsSection = [
-  ...sectionHeading("Achievements"),
-  achievementItem("Zero Data Loss Record", "100% integrity across Rs.500+ Cr | 2+ years"),
-  achievementItem("30+ Hours/Week Saved", "Automated 20+ reports | Eliminated manual processing"),
-  achievementItem("3 Developers Promoted", "Mentored juniors to mid-level | Spring Boot mastery"),
-];
+
 
 const coreStrengthsSection = [
   ...sectionHeading("Core Strengths"),
@@ -343,7 +342,7 @@ const doc = new Document({
       ...keyHighlightsSection,
       ...technicalSkillsSection,
       ...educationSection,
-      ...achievementsSection,
+
       ...coreStrengthsSection,
       ...languagesSection,
     ],
