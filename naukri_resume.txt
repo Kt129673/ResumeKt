@@ -14,7 +14,7 @@ GitHub: github.com/Kt129673
 ================================================================================
 RESUME HEADLINE (Copy for Naukri)
 ================================================================================
-Senior Java Developer | Spring Boot 3.x | Monolithic Architecture | Rs.156Cr+ Govt Systems | 99.9% Uptime | 3.3+ Yrs
+Senior Java Developer | Spring Boot 3.x | Monolithic Architecture | Rs.156Cr+ Govt Systems | 99.9% Uptime | 3.3+ Yrs | Immediate Joiner
 
 ================================================================================
 PROFESSIONAL SUMMARY
@@ -31,7 +31,7 @@ EXPERIENCE
 ================================================================================
 
 SENIOR SOFTWARE DEVELOPER - AVICS
-Nov 2022 - Present | Pune, India
+Nov 2022 - 31 Jan 2026 | Pune, India
 ---------------------------------
 - Architected enterprise monolithic applications using Spring Boot 3.x and layered architecture (Controller-Service-Repository), handling 50,000+ transactions/month at 99.9% SLA.
 - Designed RESTful APIs with Hibernate ORM and Redis/Caffeine caching, achieving sub-200ms response time and reducing database load by 40%.
@@ -52,7 +52,7 @@ KEY PROJECTS
 ================================================================================
 
 ZP WORK MANAGEMENT & FINANCIAL SYSTEM
-Feb 2023 - Present
+Feb 2023 - 31 Jan 2026
 ------------------------------------
 - Monolithic enterprise platform for Maharashtra Zilla Parishads tracking Rs.156+ Cr yearly income across 15 departments with single JAR deployment.
 - Handles 50,000+ transactions/month at 99.9% uptime and processes 100,000+ records in under 5 minutes.
@@ -61,7 +61,7 @@ Feb 2023 - Present
 - Tech: Spring Boot, Spring Security, Angular 14, MySQL, JasperReports, Prometheus, Grafana, AWS.
 
 GOVERNMENT CASHBOOK APPLICATION
-2023 - Present
+2023 - 31 Jan 2026
 -------------------------------
 - Scalable monolithic digital cashbook managing Rs.100+ Cr daily with complete accounting and audit history.
 - Integrated with banks for live updates, cheque tracking, and receipt generation; supports 200+ concurrent users.
@@ -77,7 +77,7 @@ IOT DATA COLLECTION PLATFORM
 - Tech: Spring Boot 3.4, Java 17, InfluxDB, PostgreSQL, MQTT, Azure (VMs, IoT Hub).
 
 ONLINE EXAMINATION PORTAL
-Jun 2024 - Present
+Jun 2024 - 31 Jan 2026
 --------------------------
 - Built exam platform supporting 1,000+ concurrent students with live sync and cheating-prevention mechanisms.
 - Implemented question bank (10,000+ questions), auto-grading, scheduling, bulk student upload, and email notifications.
@@ -85,7 +85,7 @@ Jun 2024 - Present
 - Tech: Spring Boot, Angular 16, MySQL, WebSocket, JWT, Redis, AWS (EC2, ElastiCache).
 
 GROUND BOOKING MANAGEMENT SYSTEM
-Aug 2024 - Present
+Aug 2024 - 31 Jan 2026
 ----------------------------------
 - Sports ground booking system for 20+ grounds generating Rs.10+ Lakhs/month with dynamic pricing.
 - Implemented slot booking with overlap detection, memberships, loyalty programs, and 10+ financial reports.

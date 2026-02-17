@@ -91,7 +91,7 @@ const headerParagraphs = [
   }),
   new Paragraph({
     children: [new TextRun({
-      text: "Senior Java Developer | Spring Boot 3.x | Monolithic Architecture | 99.9% Uptime | Rs.156Cr+ Systems | 3.3+ Yrs",
+      text: "Senior Java Developer | Spring Boot 3.x | Monolithic Architecture | 99.9% Uptime | Rs.156Cr+ Systems | 3.3+ Yrs | Immediate Joiner",
       font: "Calibri", size: 20, color: PASTEL_RED, italics: true,
     })],
     spacing: { after: 40 },
@@ -140,7 +140,7 @@ const summarySection = [
 // --- Experience ---
 const experienceSection = [
   ...sectionHeading("Experience"),
-  eventHeading("Senior Software Developer", "AVICS", "Nov 2022 – Present", "Pune, India"),
+  eventHeading("Senior Software Developer", "AVICS", "Nov 2022 – 31 Jan 2026", "Pune, India"),
   bulletItem([bold("Architected enterprise-grade monolithic applications"), normal(" using Spring Boot 3.x with layered architecture (Controller-Service-Repository), processing 50K+ txns/month at "), bold("99.9% SLA")]),
   bulletItem([normal("Designed RESTful APIs with "), bold("Hibernate ORM + Redis/Caffeine caching"), normal(", achieving sub-200ms latency vs microservices overhead")]),
   bulletItem([normal("Implemented monolithic scalability patterns — JVM tuning, HikariCP connection pooling, advanced indexing — "), bold("60% faster queries")]),
@@ -160,7 +160,7 @@ const projectsSection = [
   ...sectionHeading("Key Projects"),
 
   // ZP Work Management
-  eventHeading("ZP Work Management & Financial System", "", "Feb 2023 – Present", ""),
+  eventHeading("ZP Work Management & Financial System", "", "Feb 2023 – 31 Jan 2026", ""),
   bulletItem([bold("Monolithic enterprise platform"), normal(" for Maharashtra Zilla Parishads tracking "), bold("Rs.156Cr+ yearly income"), normal(" across "), bold("15 departments"), normal(" — single JAR deployment")]),
   bulletItem([normal("Created "), bold("live budget dashboard"), normal(" showing spending details (Rs.25+ Cr/year) and usage reports")]),
   bulletItem([normal("Built approval system with multiple levels, digital signatures, and automatic activity logging")]),
@@ -183,7 +183,7 @@ const projectsSection = [
   divider(),
 
   // IoT Platform
-  eventHeading("IoT Data Collection Platform", "", "2024 – Present", ""),
+  eventHeading("IoT Data Collection Platform", "", "2024 – 31 Jan 2026", ""),
   bulletItem([bold("Monolithic 3-tier architecture"), normal(" — IoT platform collecting "), bold("10K+ readings/min"), normal(" from "), bold("50+ factory machines")]),
   bulletItem([normal("Used multiple databases (PostgreSQL + InfluxDB) with smart caching — "), bold("70% fewer database calls")]),
   bulletItem([normal("Created live alerts, device health checks, and connectors for industrial protocols with backup system")]),
@@ -194,7 +194,7 @@ const projectsSection = [
   divider(),
 
   // Online Examination Portal
-  eventHeading("Online Examination Portal", "", "Jun 2024 – Present", ""),
+  eventHeading("Online Examination Portal", "", "Jun 2024 – 31 Jan 2026", ""),
   bulletItem([normal("Built exam platform supporting "), bold("1000+ students at once"), normal(" with live sync and cheating prevention")]),
   bulletItem([normal("Created question bank with "), bold("10,000+ questions"), normal(", auto-grading, monitoring, and result reports")]),
   bulletItem([normal("Developed exam scheduling with time slots, bulk student upload, and email login details")]),

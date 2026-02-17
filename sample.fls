@@ -1,6 +1,6 @@
-PWD c:\Users\kiran\Desktop\ResumeKt
+PWD C:\Users\kiran\Desktop\ResumeKt
 INPUT C:\Users\kiran\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\kiran\Desktop\ResumeKt\sample.tex
+INPUT sample.tex
 OUTPUT sample.log
 INPUT .\altacv.cls
 INPUT altacv.cls
