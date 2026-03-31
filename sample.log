@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.3)  6 FEB 2026 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.3)  31 MAR 2026 22:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1534,8 +1534,8 @@ Package rerunfilecheck Info: File `sample.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  36137 strings out of 467870
- 730213 string characters out of 5418356
- 1161227 words of memory out of 5000000
+ 730136 string characters out of 5418356
+ 1156066 words of memory out of 5000000
  64423 multiletter control sequences out of 15000+600000
  856270 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1548,7 +1548,7 @@ id.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/typoland/lato/
 Lato-Bold.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/typolan
 d/lato/Lato-Regular.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/google/roboto/RobotoSlab-Bold.pfb>
-Output written on sample.pdf (2 pages, 196593 bytes).
+Output written on sample.pdf (2 pages, 195774 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)

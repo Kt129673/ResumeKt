@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1770277683.13711 "c:/Users/kiran/Desktop/3_years/sample.tex" "sample.pdf" "sample" 1770277689.61499 0
-  "C:/Users/kiran/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1770137801 414978 374e8f2143c214eecf097aa35908f91c ""
+["pdflatex"] 1774977939.72703 "sample.tex" "sample.pdf" "sample" 1774977947.78558 0
+  "C:/Users/kiran/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1774872266 416576 3a92128c3091651d9a5362dbdbed15aa ""
   "C:/Users/kiran/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1770137395 13333527 12dceacb1139325dd4ae9464503c7326 ""
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1651500229 2920 d63721872b8c77041b88e51b8f7c291d ""
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1651500229 3083 a707712f77b073b3833e4b1334a30e99 ""
@@ -234,12 +234,11 @@
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/tex/latex/xmpincl/xmpincl.sty" 1633254124 2832 d498c59e94b7dfa3b4bcf74380ad6348 ""
-  "altacv.cls" 1770115972 17713 2766496d895be383a78bb8c4388bb69f ""
-  "c:/Users/kiran/Desktop/3_years/sample.tex" 1770277681 13668 6d29aca8c7a56eb59b0bd6e1bdaf0bea ""
-  "pdfa.xmpi" 1770277685 5042 05e1dbeeb8348af45f2e2ed109674d28 "pdflatex"
-  "sample.aux" 1770277688 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "sample.out" 1770277687 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "sample.tex" 1770277681 13668 6d29aca8c7a56eb59b0bd6e1bdaf0bea ""
+  "altacv.cls" 1774977695 18204 2766496d895be383a78bb8c4388bb69f ""
+  "pdfa.xmpi" 1774977941 5042 fb3fff09f46883dad6fd5757be255425 "pdflatex"
+  "sample.aux" 1774977946 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "sample.out" 1774977943 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "sample.tex" 1774977898 13282 d3a1541a9593957a0696363e63dd8be0 ""
   (generated)
   "pdfa.xmpi"
   "sample.aux"
