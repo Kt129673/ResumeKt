@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1775019218.6522 "e:/projects/ResumeKt/sample.tex" "sample.pdf" "sample" 1775019223.38374 0
+["pdflatex"] 1775019720.2148 "e:/projects/ResumeKt/sample.tex" "sample.pdf" "sample" 1775019728.24487 0
   "C:/Users/kiran/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1774872266 416576 3a92128c3091651d9a5362dbdbed15aa ""
   "C:/Users/kiran/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1770137395 13333527 12dceacb1139325dd4ae9464503c7326 ""
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1651500229 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -227,11 +227,11 @@
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/kiran/AppData/Local/Programs/MiKTeX/tex/latex/xmpincl/xmpincl.sty" 1633254124 2832 d498c59e94b7dfa3b4bcf74380ad6348 ""
   "altacv.cls" 1775018699 18157 9a923d7bf3d6f7c40ddf5f6c7e3c95b2 ""
-  "e:/projects/ResumeKt/sample.tex" 1775019134 11978 00a493c51d437ffd13a7ac2b4bea3e4b ""
-  "pdfa.xmpi" 1775019220 5042 ef2b92c7cbd715980329936f6988b060 "pdflatex"
-  "sample.aux" 1775019222 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "sample.out" 1775019221 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "sample.tex" 1775019134 11978 00a493c51d437ffd13a7ac2b4bea3e4b ""
+  "e:/projects/ResumeKt/sample.tex" 1775019679 12070 7548c0ce3f70bfd1f462b7c6a9806d2a ""
+  "pdfa.xmpi" 1775019722 5042 ff642f1c872cde70dcf7dd7ddfbfce1a "pdflatex"
+  "sample.aux" 1775019726 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "sample.out" 1775019724 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "sample.tex" 1775019679 12070 7548c0ce3f70bfd1f462b7c6a9806d2a ""
   (generated)
   "pdfa.xmpi"
   "sample.aux"
