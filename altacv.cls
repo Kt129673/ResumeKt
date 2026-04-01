@@ -114,8 +114,8 @@
 \newcommand{\cvRatingMarker}{\faCircle}
 \let\itemmarker\cvItemMarker      % for backward compatibility
 \let\ratingmarker\cvRatingMarker  % for backward compatibility
-\newcommand{\cvDateMarker}{\faCalendar[regular]}
-\newcommand{\cvLocationMarker}{\faMapMarker}
+\newcommand{\cvDateMarker}{}
+\newcommand{\cvLocationMarker}{}
 \newcommand{\locationname}{Location}
 \newcommand{\datename}{Date}
 
@@ -211,9 +211,9 @@
 \newcommand{\name}[1]{\def\@name{#1}}
 \newcommand{\tagline}[1]{\def\@tagline{#1}}
 \newcommand{\personalinfo}[1]{\def\@personalinfo{#1}}
-\NewInfoField{email}{\faAt}[mailto:]
+\NewInfoField{email}{\faAt}
 \NewInfoField{mailaddress}{\faEnvelope}
-\NewInfoField{phone}{\faPhone}[tel:]
+\NewInfoField{phone}{\faPhone}
 \NewInfoField{homepage}{\faGlobe}[https://]
 \NewInfoField{twitter}{\faTwitter}[https://twitter.com/]
 % v1.7.2 twitter.com is now X.com; v1.7.3 but only use the new icon if it's been defined
