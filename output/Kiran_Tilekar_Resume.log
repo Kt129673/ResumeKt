@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.3)  1 APR 2026 10:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.3)  1 APR 2026 10:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1521,7 +1521,7 @@ Package rerunfilecheck Info: File `Kiran_Tilekar_Resume.out' has not changed.
 Here is how much of TeX's memory you used:
  36079 strings out of 467870
  728905 string characters out of 5418356
- 1150501 words of memory out of 5000000
+ 1150581 words of memory out of 5000000
  64375 multiletter control sequences out of 15000+600000
  851159 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1534,7 +1534,7 @@ n/AppData/Local/Programs/MiKTeX/fonts/type1/typoland/lato/Lato-Regular.pfb><C:/
 Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/google/roboto/RobotoSlab-
 Bold.pfb>
 Output written on E:\projects\ResumeKt\output\Kiran_Tilekar_Resume.pdf (2 pages
-, 144685 bytes).
+, 144714 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
