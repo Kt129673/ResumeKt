@@ -429,8 +429,6 @@ INPUT C:\Users\kiran\AppData\Local\Programs\MiKTeX\fonts\tfm\google\roboto\Robot
 INPUT C:\Users\kiran\AppData\Local\Programs\MiKTeX\fonts\tfm\google\roboto\RobotoSlab-Bold-tlf-t1.tfm
 INPUT C:\Users\kiran\AppData\Local\Programs\MiKTeX\fonts\tfm\typoland\lato\Lato-Bold-T1-TLF.tfm
 INPUT C:\Users\kiran\AppData\Local\Programs\MiKTeX\fonts\tfm\typoland\lato\Lato-Regular-T1-TLF.tfm
-INPUT C:\Users\kiran\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fontawesome5\fa5free0regular.tfm
-INPUT C:\Users\kiran\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fontawesome5\fa5free2solid.tfm
 INPUT C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex\latex\lato\ts1lato-tlf.fd
 INPUT C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex\latex\lato\ts1lato-tlf.fd
 INPUT C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex\latex\lato\ts1lato-tlf.fd
@@ -465,8 +463,6 @@ INPUT .\sample.out
 INPUT .\sample.out
 INPUT C:\Users\kiran\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Brands-Regular.pfb
 INPUT C:\Users\kiran\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Brands-Regular.pfb
-INPUT C:\Users\kiran\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Free-Regular.pfb
-INPUT C:\Users\kiran\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Free-Regular.pfb
 INPUT C:\Users\kiran\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Free-Solid.pfb
 INPUT C:\Users\kiran\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Free-Solid.pfb
 INPUT C:\Users\kiran\AppData\Local\Programs\MiKTeX\fonts\type1\typoland\lato\Lato-Bold.pfb
