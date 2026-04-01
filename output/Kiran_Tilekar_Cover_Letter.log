@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.3)  6 FEB 2026 16:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.3)  1 APR 2026 09:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -611,7 +611,7 @@ File: OT1lato-TLF.fd 2019/06/24 Font definitions for OT1/lato-TLF.
 LaTeX Font Info:    Font shape `OT1/lato-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 34.
 
-No file Kiran_Tilekar_Cover_Letter.aux.
+(E:\projects\ResumeKt\output\Kiran_Tilekar_Cover_Letter.aux)
 \openout1 = `Kiran_Tilekar_Cover_Letter.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -632,6 +632,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -667,6 +668,8 @@ LaTeX Font Info:    ... okay on input line 34.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 34.
+(E:\projects\ResumeKt\output\Kiran_Tilekar_Cover_Letter.out)
+(E:\projects\ResumeKt\output\Kiran_Tilekar_Cover_Letter.out)
 \@outlinefile=\write4
 \openout4 = `Kiran_Tilekar_Cover_Letter.out'.
 
@@ -779,30 +782,23 @@ a5free2.enc}{C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fonta
 wesome5/fa5brands0.enc}{C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/enc/
 dvips/lato/a_vc7epu.enc}{C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/enc
 /dvips/fontawesome5/fa5free0.enc}]
-(C:\Users\kiran\Desktop\ResumeKt\output\Kiran_Tilekar_Cover_Letter.aux)
+(E:\projects\ResumeKt\output\Kiran_Tilekar_Cover_Letter.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-
-
-Package rerunfilecheck Warning: File `Kiran_Tilekar_Cover_Letter.out' has chang
-ed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Kiran_Tilekar_Cover_Letter.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `Kiran_Tilekar_Cover_Letter.out' has not chan
+ged.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23857 strings out of 467870
- 464316 string characters out of 5418356
- 831322 words of memory out of 5000000
- 52360 multiletter control sequences out of 15000+600000
+ 23865 strings out of 467870
+ 464673 string characters out of 5418356
+ 831473 words of memory out of 5000000
+ 52362 multiletter control sequences out of 15000+600000
  671994 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,5n,107p,568b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,5n,107p,565b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5
 /FontAwesome5Brands-Regular.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/kiran/AppDa
@@ -812,8 +808,8 @@ C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/typoland/lato/Lato-Ita
 lic.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/typoland/lato
 /Lato-Regular.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/goo
 gle/roboto/RobotoSlab-Bold.pfb>
-Output written on C:\Users\kiran\Desktop\ResumeKt\output\Kiran_Tilekar_Cover_Le
-tter.pdf (1 page, 157858 bytes).
+Output written on E:\projects\ResumeKt\output\Kiran_Tilekar_Cover_Letter.pdf (1
+ page, 157890 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)

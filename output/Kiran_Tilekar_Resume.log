@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.3)  6 FEB 2026 16:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.3)  1 APR 2026 09:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1348,7 +1348,7 @@ File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 40.
 
-(C:\Users\kiran\Desktop\ResumeKt\output\Kiran_Tilekar_Resume.aux)
+(E:\projects\ResumeKt\output\Kiran_Tilekar_Resume.aux)
 \openout1 = `Kiran_Tilekar_Resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -1396,8 +1396,8 @@ fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 40.
- (C:\Users\kiran\Desktop\ResumeKt\output\Kiran_Tilekar_Resume.out)
-(C:\Users\kiran\Desktop\ResumeKt\output\Kiran_Tilekar_Resume.out)
+ (E:\projects\ResumeKt\output\Kiran_Tilekar_Resume.out)
+(E:\projects\ResumeKt\output\Kiran_Tilekar_Resume.out)
 \@outlinefile=\write5
 \openout5 = `Kiran_Tilekar_Resume.out'.
 
@@ -1525,7 +1525,7 @@ c/dvips/fontawesome5/fa5brands0.enc}{C:/Users/kiran/AppData/Local/Programs/MiKT
 eX/fonts/enc/dvips/fontawesome5/fa5free3.enc}{C:/Users/kiran/AppData/Local/Prog
 rams/MiKTeX/fonts/enc/dvips/lato/a_rt66h3.enc}{C:/Users/kiran/AppData/Local/Pro
 grams/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}] [2]
-(C:\Users\kiran\Desktop\ResumeKt\output\Kiran_Tilekar_Resume.aux)
+(E:\projects\ResumeKt\output\Kiran_Tilekar_Resume.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1535,12 +1535,12 @@ Package rerunfilecheck Info: File `Kiran_Tilekar_Resume.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  36138 strings out of 467870
- 730780 string characters out of 5418356
- 1161255 words of memory out of 5000000
+ 730626 string characters out of 5418356
+ 1156151 words of memory out of 5000000
  64423 multiletter control sequences out of 15000+600000
  856270 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,10n,121p,700b,2315s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,10n,121p,701b,2315s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5
 /FontAwesome5Brands-Regular.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/kiran/App
@@ -1549,8 +1549,8 @@ id.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/typoland/lato/
 Lato-Bold.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/typolan
 d/lato/Lato-Regular.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/google/roboto/RobotoSlab-Bold.pfb>
-Output written on C:\Users\kiran\Desktop\ResumeKt\output\Kiran_Tilekar_Resume.p
-df (2 pages, 196593 bytes).
+Output written on E:\projects\ResumeKt\output\Kiran_Tilekar_Resume.pdf (2 pages
+, 195778 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
