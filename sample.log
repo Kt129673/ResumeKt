@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.3)  8 APR 2026 09:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.3)  8 APR 2026 09:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1457,6 +1457,25 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 52.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 52.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
+nput line 52.
+
+(C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree1.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
+nput line 52.
+
+(C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree2.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
+ input line 52.
+
+(C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mebrands0.fd)
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <6> not a
+vailable
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
+n input line 52.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    External font `cmex7' loaded for size
 (Font)              <6> on input line 52.
@@ -1468,8 +1487,18 @@ LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
 (Font)              `T1/RobotoSlab-TLF/regular/n' on input line 59.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/b/n' aliased to
 (Font)              `T1/RobotoSlab-TLF/bold/n' on input line 59.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on i
+nput line 59.
+
+(C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree3.fd)
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 8.0pt on input line 61.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
+nput line 63.
+
+(C:\Users\kiran\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree0.fd)
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 7.0pt on input line 65.
 LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input l
@@ -1485,8 +1514,13 @@ LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 
 {C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/roboto/rbto_j2bk2
 t.enc}{C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lato/a_cl4k
-dn.enc}{C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lato/a_rt6
-6h3.enc}] [2] (sample.aux)
+dn.enc}{C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesom
+e5/fa5free1.enc}{C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/f
+ontawesome5/fa5free2.enc}{C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/en
+c/dvips/fontawesome5/fa5brands0.enc}{C:/Users/kiran/AppData/Local/Programs/MiKT
+eX/fonts/enc/dvips/fontawesome5/fa5free3.enc}{C:/Users/kiran/AppData/Local/Prog
+rams/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:/Users/kiran/AppData/L
+ocal/Programs/MiKTeX/fonts/enc/dvips/lato/a_rt66h3.enc}] [2] [3] (sample.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1495,20 +1529,23 @@ Package rerunfilecheck Info: File `sample.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 36017 strings out of 467870
- 726613 string characters out of 5418356
- 1150217 words of memory out of 5000000
- 64329 multiletter control sequences out of 15000+600000
- 850219 words of font info for 72 fonts, out of 8000000 for 9000
+ 36121 strings out of 467870
+ 729677 string characters out of 5418356
+ 1158749 words of memory out of 5000000
+ 64407 multiletter control sequences out of 15000+600000
+ 852984 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,10n,121p,530b,2315s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/typoland/lato/Lato-
-Bold.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/typoland/lat
-o/Lato-Regular.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/go
-ogle/roboto/RobotoSlab-Bold.pfb>
-Output written on sample.pdf (2 pages, 119983 bytes).
+ 117i,10n,121p,589b,2315s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5
+/FontAwesome5Brands-Regular.pfb><C:/Users/kiran/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/kiran/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/typoland/lato/Lato-Bold.pfb><C:/Users/kira
+n/AppData/Local/Programs/MiKTeX/fonts/type1/typoland/lato/Lato-Regular.pfb><C:/
+Users/kiran/AppData/Local/Programs/MiKTeX/fonts/type1/google/roboto/RobotoSlab-
+Bold.pfb>
+Output written on sample.pdf (3 pages, 172151 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
+ 77 PDF objects out of 1000 (max. 8388607)
+ 4 named destinations out of 1000 (max. 500000)
  45 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -114,8 +114,8 @@
 \newcommand{\cvRatingMarker}{\faCircle}
 \let\itemmarker\cvItemMarker      % for backward compatibility
 \let\ratingmarker\cvRatingMarker  % for backward compatibility
-\newcommand{\cvDateMarker}{}
-\newcommand{\cvLocationMarker}{}
+\newcommand{\cvDateMarker}{\faCalendar}
+\newcommand{\cvLocationMarker}{\faMapMarker}
 \newcommand{\locationname}{Location}
 \newcommand{\datename}{Date}
 
@@ -211,9 +211,9 @@
 \newcommand{\name}[1]{\def\@name{#1}}
 \newcommand{\tagline}[1]{\def\@tagline{#1}}
 \newcommand{\personalinfo}[1]{\def\@personalinfo{#1}}
-\NewInfoField{email}{}
-\NewInfoField{mailaddress}{}
-\NewInfoField{phone}{}
+\NewInfoField{email}{\faEnvelope}
+\NewInfoField{mailaddress}{\faEnvelope}
+\NewInfoField{phone}{\faPhone}
 \NewInfoField{homepage}{\faGlobe}[https://]
 \NewInfoField{twitter}{\faTwitter}[https://twitter.com/]
 % v1.7.2 twitter.com is now X.com; v1.7.3 but only use the new icon if it's been defined
@@ -222,8 +222,8 @@
  {\let\xtwitter\twitter%
   \pretocmd{\xtwitter}{\ClassWarning{altacv}{You tried to use \string\xtwitter, but the new X icon isn't available. Please ensure you have updated the `simpleicons' package. Falling back to \string\twitter\space icon for now}}{}{}%
  }
-\NewInfoField{linkedin}{}[https://linkedin.com/in/]
-\NewInfoField{github}{}[https://github.com/]
+\NewInfoField{linkedin}{\faLinkedin}[https://linkedin.com/in/]
+\NewInfoField{github}{\faGithub}[https://github.com/]
 % v1.7.3 Backward compatibility for ORCiD icon
 \ifdef{\faOrcid}{
   \NewInfoField{orcid}{\faOrcid}[https://orcid.org/]
