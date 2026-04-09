@@ -1,0 +1,18 @@
+# LaTeX temporary and generated files
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.toc
+*.xmpi
+*.pdf
+
+# Output directory for compiled files
+/output/*
+!/output/Kiran_Tilekar_Resume.pdf
