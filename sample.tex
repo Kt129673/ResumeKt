@@ -1,10 +1,9 @@
 \documentclass[8pt,a4paper,withhyper]{altacv}
 
-\geometry{left=0.8cm,right=0.8cm,top=0.8cm,bottom=0.8cm,columnsep=0.8cm}
+\geometry{left=1.2cm,right=1.2cm,top=1.0cm,bottom=1.0cm}
 
-\usepackage{paracol}
 \usepackage{enumitem}
-\setlist[itemize]{nosep,leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt,itemsep=1pt}
+\setlist[itemize]{nosep,leftmargin=*,topsep=2pt,partopsep=0pt,parsep=1pt,itemsep=2pt}
 
 \iftutex
   \setmainfont{Roboto Slab}
@@ -32,261 +31,175 @@
 
 \renewcommand{\namefont}{\Huge\rmfamily\bfseries}
 \renewcommand{\personalinfofont}{\footnotesize}
-\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
-\renewcommand{\cvsubsectionfont}{\large\bfseries}
-\renewcommand{\cvItemMarker}{{\color{PastelRed}\small\faCircle}}
+\renewcommand{\cvsectionfont}{\large\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\normalsize\bfseries}
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
 \renewcommand{\cvRatingMarker}{\faCircle}
 
-\begin{document}
-\name{Kiran Tilekar}
-\tagline{Senior Java Developer \textbar{} Spring Boot \textbar{} Fintech \& Enterprise Systems \textbar{} AWS \textbar{} Immediate Joiner}
-
-\personalinfo{%
-  \email{kirantilekar@icloud.com}
-  \phone{+91-9834882015}
-  \location{Pune, India}
-  \linkedin{kiran-tilekar-94173382}
-  \github{Kt129673}
+% Override cvevent to remove accsupp-wrapped FA icons (breaks ATS parsing)
+\renewcommand{\cvevent}[4]{%
+  {\large\color{emphasis}\textbf{#1}} \ifstrequal{#3}{}{}{\hfill {\normalsize\textbf{\color{accent}#3}}} \par
+  \vspace{2pt}
+  \ifstrequal{#2}{}{}{%
+    {\normalsize\textbf{\color{body}#2}} \ifstrequal{#4}{}{}{\hfill {\normalsize\color{body}#4}} \par
+  }%
+  \vspace{4pt}\normalsize
 }
 
-\makecvheader
+% Override cvsection to use simple rule (no colored thick rule)
+\renewcommand{\cvsection}[2][]{%
+  \nointerlineskip\bigskip%
+  {\color{heading}\cvsectionfont\MakeUppercase{#2}}\\[-1ex]%
+  {\color{headingrule}\rule{\linewidth}{1.2pt}\par}\medskip
+}
 
-\columnratio{0.62}
-\setlength{\parskip}{0pt}
-\setlength{\parsep}{0pt}
+% Override divider to plain line
+\renewcommand{\divider}{\vspace{4pt}{\color{body!30}\hrule}\vspace{4pt}}
 
-\begin{paracol}{2}
-\cvsection{\faUser\hspace{0.3em}Professional Summary}
+\begin{document}
 
-Senior Java Developer with over \textbf{3.3 years} of experience building scalable \textbf{Spring Boot applications}, particularly for complex government financial systems. I specialize in backend architecture and have a proven track record of maintaining \textbf{99.9\% uptime} for platforms handling \textbf{50,000+ transactions each month}. I am also deeply experienced with \textbf{cloud ecosystems} (like AWS and Azure) and have a strong passion for designing high-speed \textbf{IoT data platforms} tailored for \textbf{real-time analytics}.
+\begin{center}
+{\fontsize{24}{28}\selectfont\color{name}\bfseries\MakeUppercase{Kiran Tilekar}\par}
+\vspace{6pt}
+{\taglinefont\color{tagline}\textbf{Senior Java Developer \textbar{} Spring Boot \textbar{} Fintech \& Enterprise Systems \textbar{} AWS \textbar{} Available Immediately}\par}
+\vspace{4pt}
+{\footnotesize kirantilekar@icloud.com ~|~ +91-9834882015 ~|~ Pune, India ~|~ linkedin.com/in/kiran-tilekar-94173382 ~|~ github.com/Kt129673\par}
+\end{center}
+\medskip
 
-\cvsection{\faBriefcase\hspace{0.3em}Experience}
+\cvsection{Professional Summary}
+\vspace{-2pt}
+
+Senior Java Developer with over \textbf{3 years} of experience building scalable \textbf{Spring Boot applications} for complex government financial systems. Proven track record of maintaining \textbf{99.9\% uptime} for platforms handling \textbf{50,000+ transactions each month}. Experienced with \textbf{cloud ecosystems} (AWS and Azure) and skilled in building high-throughput \textbf{IoT data platforms} for \textbf{real-time analytics}.
+
+\cvsection{Technical Skills}
+\vspace{-2pt}
+
+\begin{itemize}[leftmargin=*,itemsep=2pt]
+\item \textbf{Backend:} Java (8-21), Virtual Threads, Spring Boot 2.x/3.x, Microservices, Spring WebFlux (Reactive), Spring Security/Data JPA, Spring Cloud, RESTful APIs, GraphQL
+\item \textbf{Databases \& Messaging:} PostgreSQL, MySQL, MongoDB (NoSQL), Redis, Apache Kafka, RabbitMQ, Event-Driven Architecture (EDA), Flyway
+\item \textbf{Cloud \& DevOps:} AWS (EC2, S3, RDS), GCP, Azure, Docker, Kubernetes, Jenkins, GitHub Actions, CI/CD
+\item \textbf{Frontend:} Angular, TypeScript, HTML5/CSS3, Bootstrap, Thymeleaf
+\item \textbf{Tools \& Monitoring:} Git, Maven, Gradle, Postman, Swagger/OpenAPI, Prometheus, Grafana, JasperReports, Tomcat, Linux
+\item \textbf{AI Tools:} GitHub Copilot, Antigravity, Kiro
+\item \textbf{Security/Testing:} JWT, OAuth2, RBAC, JUnit 5, Mockito, SonarQube
+\item \textbf{IoT:} MQTT, InfluxDB 2.x, Modbus TCP, Eclipse Paho
+\item \textbf{Soft Skills:} Team Leadership, Agile/Scrum, Mentoring, Problem Solving, Communication, Code Reviews, Collaboration
+\end{itemize}
+
+\cvsection{Experience}
+\vspace{-2pt}
 
 \cvevent{Senior Software Developer}{AVICS}{Nov 2022 -- Present}{Pune, India}
 \begin{itemize}
-\item Spearheaded the development of enterprise-grade applications in Spring Boot 3.x, seamlessly processing over \textbf{50,000 monthly transactions} while ensuring \textbf{99.9\% uptime}.
-\item Championed clean code principles and robust system design, significantly reducing onboarding time and making future updates effortless.
-\item Dove deep into database optimization by strategically adding indexes and refining queries—achieving a \textbf{60\% improvement in query speeds}.
-\item Architected stringent security models using Spring Security, JWT/OAuth2, and RBAC to firmly safeguard \textbf{high-value financial transactions}.
-\item Automated the generation of over \textbf{20+ official government reports} via JasperReports, saving the team \textbf{30+ hours} of manual work each week.
-\item Slashed database load by \textbf{40\%} by implementing a highly effective caching strategy using Redis and Caffeine.
-\item Guided an Agile squad of 5 engineers, facilitating over 100 interactive code reviews and proudly mentoring \textbf{3 junior developers to mid-level roles}.
+\item Spearheaded enterprise-grade Spring Boot 3.x applications processing over \textbf{50,000 monthly transactions} with \textbf{99.9\% uptime}.
+\item Enforced clean code principles and robust system architecture, reducing onboarding time by \textbf{50\%} and simplifying future updates.
+\item Optimized database performance by adding indexes and refining queries, achieving a \textbf{60\% improvement in query execution speeds}.
+\item Architected security models using Spring Security, JWT/OAuth2, and RBAC to safeguard \textbf{high-value financial transactions}.
+\item Streamlined the generation of \textbf{20+ official government reports} via JasperReports, saving \textbf{30+ hours per week} of manual work.
+\item Decreased database load by \textbf{40\%} by implementing a caching strategy using Redis and Caffeine.
+\item Led an Agile squad of five engineers, facilitating over 100 code reviews and mentoring \textbf{three junior developers to mid-level roles}.
 \end{itemize}
 
-\divider
+\vspace{4pt}{\color{body!30}\hrule}\vspace{4pt}
 
 \cvevent{Quality Assurance Engineer}{Schneider Electric}{Feb 2018 -- Nov 2021}{Ahmednagar, India}
 \begin{itemize}
-\item Automated critical quality reporting across production systems, vastly improving data visibility and helping hit a consistent \textbf{95\%+ yield}.
-\item Introduced targeted problem-solving workflows that accelerated root-cause analysis, ultimately cutting down defect tracking time and reducing field failures by \textbf{30\%}.
-\item Collaborated closely with R\&D engineering teams to conceptualize testing frameworks and execute technical tests, successfully leading to \textbf{3 distinct product certifications}.
+\item Systematized critical quality reporting across production systems, improving data visibility and achieving \textbf{95\%+ yield}.
+\item Introduced problem-solving workflows that accelerated root-cause analysis, reducing field failures by \textbf{30\%}.
+\item Collaborated with R\&D teams to develop testing frameworks, leading to \textbf{three product certifications}.
 \end{itemize}
 
-\cvsection{\faLaptop\hspace{0.3em}Key Projects}
+\cvsection{Key Projects}
+\vspace{-2pt}
 
-\cvevent{ZP Work Management \& Financial System}{}{Feb 2023 -- Present (Active Maintenance)}{}
+\cvevent{ZP Work Management \& Financial System}{}{Feb 2023 -- Present}{}
 \begin{itemize}
-\item Designed and launched a large-scale administrative platform adopted by \textbf{3 Maharashtra Zilla Parishads} to precisely track \textbf{multi-year financial transactions} seamlessly across \textbf{15 departments}.
-\item Engineered a real-time \textbf{budget tracking dashboard} that delivers dynamic expenditure analytics and insightful \textbf{utilization metrics}.
-\item Delivered exceptional reliability, processing \textbf{50,000+ transactions/month} at \textbf{99.9\% uptime}, and introduced an automated mechanism that matches \textbf{100,000+ records} in under 5 minutes.
-\item Streamlined administrative workflows by introducing multi-level approval stages secured with digital signatures and comprehensive activity logging.
-\item Rolled out robust system monitoring using \textbf{Prometheus \& Grafana}, integrated budget forecasting capabilities, and established an S3-based document management hub.
-\item Crafted an intelligent fund allocation module that automatically maps budget heads and tracks real-time expenditure.
-\item \textbf{Tech Stack:} Spring Boot, Spring Security, Angular 14, MySQL, JasperReports, Prometheus, Grafana, AWS.
+\item Planned a large-scale platform adopted by \textbf{three Maharashtra Zilla Parishads} tracking financial transactions across \textbf{15 departments}.
+\item Constructed a real-time \textbf{budget tracking dashboard} delivering expenditure analytics and \textbf{utilization metrics}.
+\item Achieved \textbf{99.9\% uptime} processing \textbf{50,000+ transactions per month}; built a reconciliation engine matching \textbf{100,000+ records} in under five minutes.
+\item Consolidated workflows with multi-level approvals, digital signatures, and \textbf{Prometheus/Grafana} monitoring.
+\item \textbf{Tech:} Spring Boot, Spring Security, Angular 14, MySQL, JasperReports, AWS.
 \end{itemize}
 
-\divider
+\vspace{4pt}{\color{body!30}\hrule}\vspace{4pt}
 
-\cvevent{Government Cashbook Application}{}{Jan 2023 -- Present (Active Maintenance)}{}
+\cvevent{Government Cashbook Application}{}{Jan 2023 -- Present}{}
 \begin{itemize}
-\item Architected a fully digital cashbook solution for government treasuries, confidently managing \textbf{multi-crore funds} daily through standard double-entry bookkeeping.
-\item Seamlessly integrated bank APIs to enable real-time data syncing, automated cheque management, and instant voucher generation.
-\item Delivered a highly responsive multi-department dashboard that broadcasts real-time cash positions and smoothly supports over \textbf{100+ concurrent users}.
-\item Revolutionized treasury reconciliation by implementing automated daily matching, guaranteeing \textbf{100\% accuracy} against official bank statements and activity logs.
-\item Eliminated manual accounting headaches by building an automated month-end closing process that gracefully handles balance carry-forwards and financial year transitions.
-\item \textbf{Tech Stack:} Spring Boot, Spring Security, Angular 14, MySQL, JasperReports, AWS (EC2, RDS).
+\item Engineered a digital cashbook for government treasuries managing \textbf{high-value funds} via double-entry bookkeeping.
+\item Integrated bank APIs for real-time syncing, digital check management, and voucher generation.
+\item Provided a multi-department dashboard supporting \textbf{100+ concurrent users} with real-time cash positions.
+\item Transformed reconciliation with systematic daily matching, guaranteeing \textbf{100\% accuracy} against bank statements.
+\item \textbf{Tech:} Spring Boot, Spring Security, Angular 14, MySQL, JasperReports, AWS (EC2, RDS).
 \end{itemize}
 
-\divider
+\vspace{4pt}{\color{body!30}\hrule}\vspace{4pt}
 
 \cvevent{IoT Data Harvesting Platform}{}{Jan 2024 -- May 2024}{}
 \begin{itemize}
-\item Pioneered a resilient \textbf{3-tier IoT platform} capable of ingesting \textbf{10,000+ data points per minute} simultaneously from \textbf{50+ diverse industrial devices}.
-\item Optimized database architecture by employing PostgreSQL alongside InfluxDB and introducing a \textbf{multi-level caching} scheme, successfully slashing database queries by \textbf{70\%}.
-\item Enhanced operational reliability by building real-time alerting modules, continuous device health monitoring, and robust OPC-UA/Modbus protocol adapters complete with automatic failover.
-\item Enforced smart data retention policies that effectively cut cloud storage costs by \textbf{50\%}, and distributed the final product effortlessly using an NSIS Windows installer.
-\item Transformed the onboarding experience by designing a smart device auto-discovery system paired with seamless remote firmware update capabilities.
-\item \textbf{Tech Stack:} Spring Boot 3.4, Java 17, InfluxDB, PostgreSQL, MQTT, Azure (VMs, IoT Hub).
+\item Created a \textbf{3-tier IoT platform} ingesting \textbf{10,000+ data points per minute} from \textbf{50+ industrial devices}.
+\item Tuned database architecture with PostgreSQL, InfluxDB, and \textbf{multi-level caching}, cutting queries by \textbf{70\%}.
+\item Enhanced reliability with real-time alerting, device health monitoring, and OPC-UA/Modbus adapters with failover.
+\item Enforced data retention policies reducing cloud storage costs by \textbf{50\%}; devised an automated device discovery system.
+\item \textbf{Tech:} Spring Boot 3.4, Java 17, InfluxDB, PostgreSQL, MQTT, Azure (VMs, IoT Hub).
 \end{itemize}
 
-\divider
+\vspace{4pt}{\color{body!30}\hrule}\vspace{4pt}
 
-\cvevent{Online Examination Portal}{}{Jun 2024 -- Present (Greenfield)}{}
+\cvevent{Online Examination Portal}{}{Jun 2024 -- Present}{}
 \begin{itemize}
-\item Led the full-cycle development of an expansive online examination platform that flawlessly supports \textbf{1000+ simultaneous users}, backed by real-time state syncing and rigorous anti-cheating mechanisms.
-\item Curated a robust system architecture hosting a vast question bank (\textbf{10,000+ questions}), coupled with automated grading, live proctoring, and insightful result analytics.
-\item Crafted a dynamic exam scheduling engine to effortlessly handle slot allocations, bulk candidate imports, and automated email credential deliveries.
-\item Elevated exam integrity by rolling out a real-time monitoring suite with live candidate tracking and a low-latency instant notification system.
-\item Empowered administrators with a comprehensive analytics dashboard mapping out key pass/fail trends and granular subject-wise performance metrics.
-\item Guaranteed exam uniqueness by writing an intelligent, randomized question shuffling algorithm tailored to generate a distinct paper for every single candidate.
-\item \textbf{Tech Stack:} Spring Boot, Angular 16, MySQL, WebSockets, JWT, Redis, AWS (EC2, ElastiCache).
+\item Led the creation of an examination platform supporting \textbf{1,000+ simultaneous users} with anti-cheating mechanisms.
+\item Developed architecture hosting \textbf{10,000+ questions} with instant grading, live proctoring, and result analytics.
+\item Configured an exam scheduling engine handling slot allocations, bulk imports, and credential delivery.
+\item Presented an analytics dashboard mapping pass/fail trends and subject-level performance metrics.
+\item \textbf{Tech:} Spring Boot, Angular 16, MySQL, WebSockets, JWT, Redis, AWS (EC2, ElastiCache).
 \end{itemize}
 
-\divider
+\vspace{4pt}{\color{body!30}\hrule}\vspace{4pt}
 
-\cvevent{Ground Booking Management System}{}{Aug 2024 -- Present (Greenfield)}{}
+\cvevent{Ground Booking Management System}{}{Aug 2024 -- Present}{}
 \begin{itemize}
-\item Developed a dynamic sports facility booking platform currently managing \textbf{20+ grounds} and substantial monthly revenue through an intelligent pricing engine.
-\item Slashed manual accounting efforts by \textbf{70\%} by architecting an automated system that cleanly matches revenue records and generates comprehensive daily financial summaries.
-\item Boosted customer retention by launching a membership management suite featuring subscription tiers, automated renewals, and engaging member activity tracking.
-\item Eliminated scheduling headaches with a robust slot-management system equipped with conflict detection, recurring booking logic, and helpful automated reminders.
-\item Drove recurring business by rolling out a dedicated customer loyalty program, complete with discount tiers and manageable promotional campaigns.
-\item Optimized facility revenue through a responsive peak/off-peak pricing engine that instantly applies holiday rate adjustments and seasonal promotions.
-\item Organized competitive play by creating a fully-featured tournament module ready with bracket generation and intuitive team registration workflows.
-\item \textbf{Tech Stack:} Spring Boot, Angular 14, MySQL, JasperReports, Azure (App Service, SQL Database).
+\item Established a sports facility booking platform managing \textbf{20+ grounds} with an intelligent pricing engine.
+\item Lowered manual accounting efforts by \textbf{70\%} with a reconciliation system generating daily financial summaries.
+\item Boosted retention with membership management featuring subscription tiers, renewals, and activity tracking.
+\item Resolved scheduling conflicts with slot management, conflict detection, and recurring booking logic.
+\item Maximized revenue through peak/off-peak pricing with holiday adjustments and seasonal promotions.
+\item \textbf{Tech:} Spring Boot, Angular 14, MySQL, JasperReports, Azure (App Service, SQL Database).
 \end{itemize}
 
-\divider
+\vspace{4pt}{\color{body!30}\hrule}\vspace{4pt}
 
 \cvevent{ITI Inventory Management System}{}{2022 -- 2024}{}
 \begin{itemize}
-\item Delivered an end-to-end full-stack inventory solution trusted by \textbf{200+ users} to manage over \textbf{5000+ active items}, complete with a bulk Excel import tool that reduced data entry times by \textbf{80\%}.
-\item Supercharged operational oversight by building granular role-based workflows, automated depreciation calculators, modern barcode/QR tracking, and \textbf{15+ rich analytics reports}.
-\item Tightened supply chain operations by implementing intuitive vendor management tools, automated low-stock alerts, and an unwavering audit trail supporting one-click rollbacks.
-\item Solved logistical challenges with a multi-location inventory tracking feature, enabling seamless inter-branch stock transfers and effortless reconciliation.
-\item Extended equipment lifespans through a dedicated asset lifecycle management tool featuring automated maintenance scheduling and precise warranty tracking.
-\item \textbf{Tech Stack:} Spring Boot 2.5, Spring Security, MySQL, Thymeleaf, Apache POI, GCP.
+\item Produced an inventory solution for \textbf{200+ users} managing \textbf{5,000+ items}; bulk Excel import cut data entry by \textbf{80\%}.
+\item Strengthened oversight with role-based workflows, depreciation calculators, barcode/QR tracking, and \textbf{15+ reports}.
+\item Tightened supply chain with vendor management, real-time low-stock alerts, and audit trail with rollbacks.
+\item Solved multi-location tracking challenges, enabling inter-branch stock transfers and efficient reconciliation.
+\item \textbf{Tech:} Spring Boot 2.5, Spring Security, MySQL, Thymeleaf, Apache POI, GCP.
 \end{itemize}
 
-\switchcolumn
-
-\cvsection{\faCogs\hspace{0.3em}Technical Skills}
-
-\cvsubsection{Backend \& Frameworks}
-\cvtag{Java 8/11/17}
-\cvtag{Spring Boot 2.x/3.x}
-\cvtag{Spring MVC}
-\cvtag{Spring Security}
-\cvtag{Spring Data JPA}
-\cvtag{Spring Cloud}
-\cvtag{Spring AOP}
-\cvtag{Hibernate ORM}
-\cvtag{RESTful APIs}
-\cvtag{WebSocket}
-
-\divider\vspace{-2mm}
-
-\cvsubsection{Frontend}
-\cvtag{Angular}
-\cvtag{TypeScript}
-\cvtag{HTML5/CSS3}
-\cvtag{Bootstrap}
-\cvtag{Thymeleaf}
-
-\divider\smallskip
-
-\cvsubsection{Databases \& Caching}
-\cvtag{MySQL 8.x}
-\cvtag{PostgreSQL}
-\cvtag{Redis}
-\cvtag{Caffeine Cache}
-\cvtag{HikariCP}
-\cvtag{Query Optimization}
-
-\divider\smallskip
-
-\cvsubsection{DevOps \& Cloud}
-\cvtag{AWS (EC2, S3, RDS, ElastiCache)}
-\cvtag{GCP (Compute, Cloud SQL)}
-\cvtag{Azure (App Service, VMs, IoT Hub)}
-\cvtag{Docker}
-\cvtag{Jenkins}
-\cvtag{Git/GitHub}
-\cvtag{CI/CD}
-\cvtag{Linux}
-\cvtag{Tomcat}
-
-\divider\smallskip
-
-\cvsubsection{Tools \& Libraries}
-\cvtag{Maven}
-\cvtag{Gradle}
-\cvtag{JasperReports}
-\cvtag{Apache POI}
-\cvtag{Swagger/OpenAPI}
-\cvtag{Postman}
-\cvtag{IntelliJ IDEA}
-\cvtag{Prometheus}
-\cvtag{Grafana}
-
-\divider\smallskip
-
-\cvsubsection{Security \& Testing}
-\cvtag{JWT}
-\cvtag{OAuth2}
-\cvtag{RBAC}
-\cvtag{JUnit 5}
-\cvtag{Mockito}
-\cvtag{SonarQube}
-
-\divider\smallskip
-
-\cvsubsection{IoT \& Industrial}
-\cvtag{MQTT}
-\cvtag{InfluxDB 2.x}
-\cvtag{Modbus TCP}
-\cvtag{Eclipse Paho}
-\cvtag{Jamod Library}
-\cvtag{NSIS Installer}
-\cvtag{Time-Series DB}
-
-
-\vspace{1mm}
-
-\cvsection{\faGraduationCap\hspace{0.3em}Education}
+\cvsection{Education}
+\vspace{-2pt}
 
 \cvevent{B.E. Electrical Engineering}{Sinhgad College of Engineering}{2012 -- 2016}{Pune, India}
-\begin{itemize}
-\item Focus: Power Systems \& Industrial Automation
-\item Relevant Coursework: Control Systems, Microprocessors, Industrial Electronics
-\end{itemize}
+Focus: Power Systems \& Industrial Automation | Coursework: Control Systems, Microprocessors, Industrial Electronics
 
-\divider
+\vspace{4pt}{\color{body!30}\hrule}\vspace{4pt}
 
 \cvevent{Java Full Stack Developer}{Seed Infotech Pvt Ltd}{2021 -- 2022}{}
-\begin{itemize}
-\item Comprehensive training in Java, Spring Boot, Angular, and enterprise application development
-\end{itemize}
+Comprehensive training in Java, Spring Boot, Angular, and enterprise application development
 
-\vspace{1mm}
+\cvsection{Achievements}
+\vspace{-2pt}
 
-\cvsection{\faTrophy\hspace{0.3em}Achievements}
+\textbf{Zero Data Loss Record} -- 100\% integrity across high-value transactions | 2+ years\\[2pt]
+\textbf{30+ Hours Per Week Saved} -- Streamlined 20+ reports | Eliminated manual processing\\[2pt]
+\textbf{Three Developers Promoted} -- Mentored juniors to mid-level | Spring Boot mastery
 
-\cvachievement{}{Zero Data Loss Record}{100\% integrity across high-value transactions \textbar{} 2+ years}
+\smallskip
+\cvsection{Languages}
+\vspace{-2pt}
 
-\divider
-
-\cvachievement{}{30+ Hours/Week Saved}{Automated 20+ reports \textbar{} Eliminated manual processing}
-
-\divider
-
-\cvachievement{}{3 Developers Promoted}{Mentored juniors to mid-level \textbar{} Spring Boot mastery}
-
-\vspace{1mm}
-
-\cvsection{\faGlobe\hspace{0.3em}Languages}
-
-\cvtag{English (Professional)}
-\cvtag{Hindi (Native)}
-\cvtag{Marathi (Native)}
-
-
-
-
-\divider
-
-
-
-\end{paracol}
+English (Professional), Hindi (Native), Marathi (Native)
 
 \end{document}
